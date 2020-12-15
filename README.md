@@ -3,8 +3,7 @@
 ## Overview
 
 ### Who is the website for?
-The current version of the website is for people who have an interest in the property market in South Dublin. 
-This includes persons looking to buy or sell there home, property auctioneers or builders looking to flip a property.
+The current version of the website is for CK group
 
 ### What does it do?
 This website gives a graphical representation of YOUTUBE ingredient List in the form of an interactive data dashboard.  
