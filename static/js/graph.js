@@ -23,8 +23,53 @@ function makeGraphs(error, IngData){
     show_number_filtered(ndx);
     show_avg_view_per_ing(ndx);
     show_table_of_properties(ndx);
+	show_drop_down_category(ndx);
+	show_drop_down_dept(ndx);
+	show_drop_down_ing(ndx);
+	show_drop_down_claims(ndx);
 
     dc.renderAll();
+}
+
+
+function show_drop_down_category(ndx)
+{
+	
+	 var dim = ndx.dimension(dc.pluck('category'));
+    var group = dim.group();
+selectField=dc.selectMenu('#menuselect')
+      .dimension(dim)
+      .group(group);
+}
+
+function show_drop_down_dept(ndx)
+{
+	
+	 var dim = ndx.dimension(dc.pluck('department'));
+    var group = dim.group();
+selectField=dc.selectMenu('#menuselect1')
+      .dimension(dim)
+      .group(group);
+}
+
+function show_drop_down_ing(ndx)
+{
+	
+	 var dim = ndx.dimension(dc.pluck('ing'),true);
+    var group = dim.group();
+selectField=dc.selectMenu('#menuselecting')
+      .dimension(dim)
+      .group(group);
+}
+
+function show_drop_down_claims(ndx)
+{
+	
+	 var dim = ndx.dimension(dc.pluck('claims'));
+    var group = dim.group();
+selectField=dc.selectMenu('#menuselectclaims')
+      .dimension(dim)
+      .group(group);
 }
 
 
@@ -38,8 +83,8 @@ function show_ing_list(ndx)
 
     dc.rowChart("#ing_main_chart")
 		.renderLabel(true)
-        .width(600)
-        .height(800)
+        .width(400)
+        .height(400)
         .margins({ top: 20, left: 10, right: 10, bottom: 20 })
         .dimension(dim)
         .group(group)
@@ -101,8 +146,8 @@ function show_claims(ndx){
     var group = dim.group();
 
     dc.rowChart('#claims_rowchart')
-        .width(600)
-        .height(800)
+        .width(400)
+        .height(400)
         .dimension(dim)
         .group(group)
         .elasticX(true)
@@ -116,13 +161,13 @@ function show_claims(ndx){
 function show_category(ndx){
     var dim = ndx.dimension(dc.pluck('category'));
     var group = dim.group();
-//    var fakeGroup = remove_empty_bins(group);
+    var fakeGroup = remove_empty_bins(group);
 
     dc.barChart('#category_bar')
         .width(450)
         .height(330)
         .dimension(dim)
-        .group(group)
+        .group(fakeGroup)
         .elasticX(true)
         .elasticY(true)
         // .brushOn(true)
@@ -130,7 +175,15 @@ function show_category(ndx){
         .x(d3.scale.ordinal())
         .xUnits(dc.units.ordinal);
 }
-
+function remove_empty_bins(source_group) {
+    return {
+        all:function () {
+            return source_group.all().filter(function(d) {
+                return d.value != 0;
+            });
+        }
+    };
+}
 
 
 //-- PIE CHARTS FOR LIKES, DISLIKES , VIEWS AND DEPARTMENT
@@ -163,8 +216,8 @@ function show_ing_dept_ing(ndx){
     var group = dim.group();
 
     dc.pieChart("#department_type")
-        .height(250)
-        .radius(100)
+        .height(300)
+        .radius(200)
         .transitionDuration(1000)
         .dimension(dim)
         .group(group)
@@ -189,7 +242,7 @@ function show_total_views(ndx){
 
     dc.pieChart("#total_view_count")
         .height(250)
-        .radius(100)
+        .radius(200)
         .transitionDuration(1000)
         .dimension(dim)
         .group(group)
@@ -236,7 +289,7 @@ function show_avg_view_per_ing(ndx){
 
 
     dc.bubbleChart("#bubble_chart")
-        .width(1100)
+        .width(900)
         .height(400)
         .margins({top: 10, right: 50, bottom: 50, left: 68})
         .dimension(areaDim)
