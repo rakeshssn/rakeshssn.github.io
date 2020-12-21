@@ -1,280 +1,207 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>index</title>
-		
-		<meta name="keywords" content="" />
-		<meta name="description" content="" />
-		<meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
 
-		<link rel="stylesheet" href="css/fonts.css" />
-		<link rel="stylesheet" href="css/bootstrap.weber.css" />
-		<link rel="stylesheet" href="css/fx.css" />
-		<link rel="stylesheet" href="css/custom.css" />
-		
-	</head>
-    <body class="light-page">
-		<div id="wrap">
-			<nav id="nav-logo-list" class="navbar light">
-    			<div class="container">
-        			<div class="row align-items-center">
-            			<div class="col-auto mr-auto">
-                			<a class="navbar-brand" href="#">
-                    			<img src="images/cklogo.png" height="60px" class="mw-100" alt="logo">
-                			</a>
-                			<p class="navbar-text text-secondary ml-10">
-                    YouTube Analytics Dashboard
-                			</p>
-            			</div>
-            			<div class="col-auto hidden-sm">
-                			<ul class="navbar-text list-inline small">
-                    			<li class=""><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 0 16 16" width="16" class="icon icon-pos-left svg-default"><path d="m.99052845 1.73676599.56361347-.56361348 4.14772049 4.14772049c-.5530294.5530294 0 1.6590882 1.6590882 3.31817639 1.65908819 1.65908821 2.76514699 2.21211761 3.31817639 1.65908821l4.1477205 4.1477205-.5635607.5635607.0000123.0000123c-.1832569.1832569-.4220376.3006747-.6790607.3339206-2.6541817.3433184-5.55815505-1.061905-8.71192009-4.21567-3.15372572-3.15372574-4.55895333-6.05766601-4.21568285-8.71182085l-.00003523-.00000455c.03324308-.25703422.1506638-.4958259.33392822-.67909031zm.56361347-.56361348.8295441-.82954409c.45814456-.45814456 1.20094364-.45814456 1.6590882 0l2.48863229 2.48863229c.45814455.45814455.45814455 1.20094364 0 1.65908819l-.8295441.8295441zm9.12498508 9.12498509.8295441-.82954411c.4581446-.45814455 1.2009436-.45814455 1.6590882 0l2.4886323 2.48863231c.4581445.4581445.4581445 1.2009436 0 1.6590882l-.8295441.8295441z" fill-rule="evenodd"></path></svg>Telephone</li>
-                    			<li class=""><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 0 16 16" width="16" class="icon icon-pos-left svg-default"><path d="m8 16c-3.3137085 0-6-2.1894737-6-5.8947368 0-3.7052632 6-10.1052632 6-10.1052632s6 6.4 6 10.1052632c0 3.7052631-2.6862915 5.8947368-6 5.8947368zm0-4c1.1045695 0 2-.8954305 2-2s-.8954305-2-2-2-2 .8954305-2 2 .8954305 2 2 2z" fill-rule="evenodd" transform="matrix(1 0 0 -1 0 16)"></path></svg>Address</li>
-                    			<li class=""><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 0 16 16" width="16" class="icon icon-pos-left svg-default"><path d="m9 7v-4h-2v4h-4v2h6zm-9 1c0-4.418278 3.59071231-8 8-8 4.418278 0 8 3.59071231 8 8 0 4.418278-3.5907123 8-8 8-4.418278 0-8-3.5907123-8-8z" fill-rule="evenodd"></path></svg>Work time</li>
-                			</ul>
-            			</div>
-        			</div>
-    			</div>
-    			<div class="bg-wrap">
-        			<div class="bg"></div>
-    			</div>
-			</nav><section id="benefits-4col" class="pt-50 light">
-    			<div class="container">
-        			<div class="row">
-            			<div class="col-lg-3 col-md-6">
-                			<div class="content-box d-flex mb-50">
-                    			<div class="mr-20">
-                        			<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 64 64" height="48px" viewBox="0 0 64 64" width="48px" class="mb-10 icon svg-secondary"><path d="m5.383 33.022c-.243.949-.383 1.945-.383 2.978 0 5.794 4.206 10 10 10v-2c-4.71 0-8-3.29-8-8 0-4.962 3.589-9 8-9h2.829l.153-.815c1.546-8.22 9.123-14.185 18.018-14.185 10.477 0 19 7.626 19 17v1h1c3.536 0 6 4.216 6 8 0 3.645-2.355 6-6 6v2c4.71 0 8-3.29 8-8 0-4.493-2.783-9.282-7.024-9.927-.537-10.048-9.74-18.073-20.976-18.073-4.097 0-7.938 1.156-11.156 3.157-2.647-3.251-6.59-5.157-10.844-5.157-7.72 0-14 6.28-14 14 0 2.682.761 5.288 2.201 7.538.85 1.327 1.939 2.509 3.182 3.484zm8.617-23.022c3.591 0 6.929 1.581 9.197 4.291-3.457 2.653-5.989 6.375-7.008 10.709h-1.189c-3.88 0-7.242 2.448-8.9 6.009-.849-.747-1.606-1.601-2.214-2.549-1.234-1.927-1.886-4.161-1.886-6.46 0-6.617 5.383-12 12-12z"></path><path d="m17 44h37v2h-37z"></path><path d="m17 50h37v2h-37z"></path><path d="m17 56h37v2h-37z"></path></svg>
-                    			</div>
-                    			<div>
-                        			<h4 class=""><strong>Category</strong></h4>
-										<div id="menuselect"></div>
-									</div>
-                			</div>
-            			</div>
-            			<div class="col-lg-3 col-md-6">
-                			<div class="content-box d-flex mb-50">
-                    			<div class="mr-20">
-                        			<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 64 64" height="48px" viewBox="0 0 64 64" width="48px" class="mb-10 icon svg-secondary"><path d="m0 58h64v-52h-64zm2-2v-40h60v40zm60-48v6h-60v-6z"></path><path d="m6 10h4v2h-4z"></path><path d="m14 10h4v2h-4z"></path><path d="m22 10h4v2h-4z"></path><path d="m30 40.586-6.293-6.293-1.414 1.561 7 7.146h1.414l13-13.146-1.414-1.488z"></path></svg>
-                    			</div>
-                    			<div>
-                        			<h4 class=""><strong>Department</strong></h4>
-									<div id="menuselect1" style="float:none;"></div>
-                    			</div>
-                			</div>
-            			</div>
-            			<div class="col-lg-3 col-md-6">
-                			<div class="content-box d-flex mb-50">
-                    			<div class="mr-20">
-                        			<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 64 64" height="48px" viewBox="0 0 64 64" width="48px" class="mb-10 icon svg-secondary"><path d="m51 0c-7.168 0-13 5.832-13 13 0 2.702.83 5.213 2.246 7.294l-21.644 13.774c-1.978-1.895-4.653-3.068-7.602-3.068-6.065 0-11 4.935-11 11s4.935 11 11 11c4.134 0 7.739-2.295 9.618-5.676l18.397 7.359c-.002.106-.015.211-.015.317 0 4.963 4.037 9 9 9s9-4.037 9-9-4.037-9-9-9c-4.149 0-7.642 2.826-8.679 6.651l-17.899-7.159c.369-1.099.578-2.27.578-3.492 0-2.39-.774-4.598-2.074-6.403l21.587-13.737c2.375 2.54 5.744 4.14 9.487 4.14 7.168 0 13-5.832 13-13s-5.832-13-13-13zm-3 48c3.859 0 7 3.141 7 7s-3.141 7-7 7-7-3.141-7-7 3.141-7 7-7zm-37 3c-4.963 0-9-4.037-9-9s4.037-9 9-9 9 4.037 9 9-4.037 9-9 9zm40-27c-6.065 0-11-4.935-11-11s4.935-11 11-11 11 4.935 11 11-4.935 11-11 11z"></path></svg>
-                    			</div>
-                    			<div>
-                        			<h4 class=""><strong>Ingredient List</strong></h4>
-									<div id="menuselecting" style="float:none;"></div>
-                    			</div>
-                			</div>
-            			</div>
-            			<div class="col-lg-3 col-md-6">
-                			<div class="content-box d-flex mb-50">
-                    			<div class="mr-20">
-                        			<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 64 64" height="48px" viewBox="0 0 64 64" width="48px" class="mb-10 icon svg-secondary"><path d="m54 0h-44v21.142l-10 4.193v38.665h64v-38.665l-10-4.193zm-2 2v29.716l-20 12.537-20-12.537v-29.716zm-42 28.462-6.835-4.285 6.835-2.866zm-8 31.538v-34.193l30 18.807 30-18.807v34.193zm58.835-35.823-6.835 4.285v-7.151z"></path><path d="m31.529 31.882.471.251.471-.251c.429-.229 10.529-5.698 10.529-12.882 0-3.42-2.579-6-6-6-2.085 0-3.924 1.068-5 2.687-1.076-1.619-2.915-2.687-5-2.687-3.421 0-6 2.58-6 6 0 7.184 10.1 12.653 10.529 12.882zm-4.529-16.882c2.206 0 4 1.794 4 4h2c0-2.206 1.794-4 4-4 2.317 0 4 1.682 4 4 0 5.203-7.086 9.724-9 10.85-1.914-1.126-9-5.647-9-10.85 0-2.318 1.683-4 4-4z"></path></svg>
-                    			</div>
-                    			<div>
-                        			<h4 class=""><strong>Claims</strong></h4>
-									<div id="menuselectclaims" style="float:none;"></div>
-                    			</div>
-                			</div>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-            			</div>
-						
-						
-          
-						
-					
-        			</div>
-    			</div>
-    			<div class="bg-wrap">
-        			<div class="bg"></div>
-    			</div>
-			</section>
-			
-			<nav id="nav-offcanvas-left" class="navbar navbar-expand light spr-edit-el sticky-top spr-oc-show spr-wout">
-				<div class="container-fluid">
-					<div class="row align-items-center">
-						<div class="col-auto mr-auto">
-			
-							<div class="dc-data-count">
-       
-								<strong><span class="filter-count"></span> entries selected out of <span class="total-count"></span> entries | </strong>
-            
-								<a class="btn btn-primary btn-sm" href="javascript:dc.filterAll(); dc.renderAll();"><strong>Reset All</strong></a>
-              
-			
-       
-							</div>
-						</div>
-           
-					</div>
-				</div>
-				<div class="bg-wrap"></div>
-			</nav>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+    <link rel="stylesheet" href="static/css/dc.min.css" type="text/css" />
+    <link rel="stylesheet" href="static/css/custom.css" type="text/css" />
 
-			<div class="sticky-wrapper" style="height: auto;"></div>
-			
-			<section id="benefits-4col-5" class="light">
-    			<div class="container-fluid">
-        			<div class="row no-gutters">
-            			<div class="col-lg-3 d-flex flex-column flex-equal-items">
-                			<div class="content-box padding-x2" style="background-color:#F2F0ED;">
-                    			
-                    			<h4 class="mb-20"><strong>Ingredient List</strong></h4>
-                    			
-                    			
-								 <div id="ing_main_chart"></div>
-								
-								
-								
-                			</div>
-            			</div>
-            			<div class="col-lg-3 d-flex flex-column flex-equal-items">
-                			<div class="content-box padding-x2" style="background-color:#F4F5F6;">
-                    			
-                    			<h4 class="mb-20"><strong>Department</strong></h4>
-                    			<div id="department_type" class="pie"></div>
-                    			
-                			</div>
-            			</div>
-            			<div class="col-lg-3 d-flex flex-column flex-equal-items">
-                			<div class="content-box padding-x2" style="background-color:#e6f2ff;">
-                    			
-                    			<h4 class="mb-20"><strong>Category</strong></h4>
-                    			
-                    			<div id="category_bar"></div>
-								
-								
-                			</div>
-            			</div>
-            			<div class="col-lg-3 d-flex flex-column flex-equal-items">
-                			<div class="content-box padding-x2">
-                    			
-                    			<h4 class="mb-20"><strong>Claims</strong></h4>
-                    			<div id="claims_rowchart"></div>
-                    			
-                			</div>
-            			</div>
-						
-						
-						
-        			</div>
-    			</div>
-    			<div class="bg-wrap">
-        			<div class="bg"></div>
-    			</div>
-			</section><section id="benefits-3col-2" class="light">
-    			<div class="container-fluid">
-        			<div class="row no-gutters">
-            			
-						
-						<div class="col-lg col-md-6">
-						<div class="content-box padding-x2 border-lg-right">
-                    
-						<h4 class="mb-20"><strong>No. of LIKES</strong></h4>
-						<div id="number_of_likes" class="pie"></div>
-						</div>
-						</div>
-						
-						<div class="col-lg col-md-6">
-						<div class="content-box padding-x2 border-lg-right">
-                    
-						<h4 class="mb-20"><strong>No. of Dislikes</strong></h4>
-						<div id="number_of_dislikes" class="pie"></div>
-						</div>
-						</div>
-						
-						<div class="col-lg col-md-6">
-						<div class="content-box padding-x2 border-lg-right">
-                    
-						<h4 class="mb-20"><strong>Total Views </strong></h4>
-						<div id="total_view_count" class="pie"></div>
-						</div>
-						</div>
-						
-						<div class="col-lg col-md-6">
-						<div class="content-box padding-x2 border-lg-right">
-                    
-						<h4 class="mb-20"><strong>Avg Views for the Ingredient</strong></h4>
-						<h1><strong class="count-up-data"><i id="avg_view_number" class="fas fa-hashtag fa-3x"></i> </strong></h1>
-						<h2><strong>Views</strong></h2>
-						<i id="avg_view_number" class="fas fa-hashtag fa-3x"></i> 
-						</div>
-						</div>
-						
-						
-        			</div>
-    			</div>
-    			<div class="bg-wrap">
-        			<div class="bg"></div>
-    			</div>
-			</section>
-			
-			
-			<section class="light">
-				<div class="container-fluid">
-					<div class="row  align-items-center">
-				
-						<div class="col-lg-6 padding-x2 ml-auto mr-auto mt-lg-100 mb-lg-100">
-							<h3><strong>      Average views</strong></h3>
-						<div id="bubble_chart"></div>
-					</div>
-            
-				<div class="col-lg-6 table-responsive padding-x2 ml-auto mr-auto mt-lg-100 mb-lg-100">
-                <h3><strong>Filtered Results</strong></h3>
-				<table id="results-table" class="col-12 table"></table>
-				<div class="col-12" id="paging">
-					<article>Showing <span id="begin"></span>-<span id="end"></span> of <span id="size"></span>.</article>
-					<button id="previous" type="button" class="btn btn-primary"><i class="fas fa-angle-left"></i> Previous</button>
-					<button id="next" type="button" class="btn btn-primary">Next <i class="fas fa-angle-right"></i></button>
-				</div>
-				
-				
-				</div>
-            </div>
-        </div>
-    
-					<div class="bg-wrap">
-						<div class="bg"></div>
-					</div>
-			</section>
-			
-			
-			
-			
-			
-		</div>
-		<footer></footer>
-		<div class="modal-container"></div>
-		
-		
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCByts0vn5uAYat3aXEeK0yWL7txqfSMX8"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-		<script src="js/jquery-2.1.4.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/jquery.waypoints.min.js"></script>
-		<script src="js/countUp-jquery.js"></script>
-		<script src="js/custom.js"></script>
-		<script src="js/index.js"></script>
-		<script src="static/js/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-		<script src="static/js/bootstrap.min.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="static/js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
 
     <!-- d3.js first, then crossfilter.js, then dc.js, then queue.js, then graph.js -->
-		<script src="static/js/d3.min.js"></script>
+    <script src="static/js/d3.min.js"></script>
     
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter2/1.4.0-alpha.6/crossfilter.js"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter2/1.4.0-alpha.6/crossfilter.js"></script>
   
-		<script src="static/js/dc.min.js"></script>
-		<script src="static/js/queue.min.js"></script>
-		<script src="static/js/graph.js"></script>
-	</body>
+    <script src="static/js/dc.min.js"></script>
+    <script src="static/js/queue.min.js"></script>
+    <script src="static/js/graph.js"></script>
+
+    <link rel="shortcut icon" type="image/png" href="images/cksmall.png">
+    <title>YouTube Ingredients Analytics Dashboard</title>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <div class="container">
+            <h2>YouTube Analytics<span> Dashboard</span></h2>
+            <img src="images/cklogo.png" height="41" width="129" alt="CAVINKARE">
+        </div>
+    </nav>
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+
+    <div id="data-count" class="fixed-top dc-data-count">
+        <div class="container">
+            <span class="filter-count"></span> entries selected out of <span class="total-count"></span> entries |
+            <a href="javascript:dc.filterAll(); dc.renderAll();">Reset All</a>
+        </div>
+    </div>
+
+	
+    <!-- <section class="bgimage"></section> -->
+
+    <div class="container" id="main">
+	
+	&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+	
+
+
+
+        <h2>Select Your <span>Preferences</span></h2>
+        <div class="row" id="charts01">
+            <!--Areas-->
+			
+	
+		<div class="row" id="fil">
+		<div class="col-6 col-lg-3">
+		<h4>Category</h4>
+          <div id="menuselect" style="float:none;"></div>
+		</div>
+		<div class="col-6 col-lg-3">
+			<h4>Department</h4>
+          <div id="menuselect1" style="float:none;"></div>
+		</div>
+		<div class="col-6 col-lg-3">
+		 <h4>Ingredients</h4>
+          <div id="menuselecting" style="float:none;"></div>
+		</div>
+		<div class="col-6 col-lg-3">
+		 <h4>Claims</h4>
+          <div id="menuselectclaims" style="float:none;"></div>
+		</div>
+		
+		<a href="javascript:dc.filterAll(); dc.renderAll();">Reset All</a>
+		</div>
+			
+
+
+
+		<div class="row">
+            <div class="col-lg-3 d-flex flex-column flex-equal-items" style="background-color:#F4F5F6;">
+                <h3>Major Ingredients</h3>
+                <div id="ing_main_chart"></div>
+            </div>
+            <!--BER-->
+            <div class="col-lg-3 d-flex flex-column flex-equal-items" style="background-color:#e6f2ff;">
+                <h3>Category</h3>
+                <div id="category_bar"></div>
+			</div>
+			
+			<div class="col-lg-3 d-flex flex-column flex-equal-items" style="background-color:#F2F0ED;">
+				
+                <h3>Department</h3>
+                <div id="department_type" class="pie"></div>
+            </div>
+			
+            <div class="col-lg-3 d-flex flex-column flex-equal-items">
+                <h3>Claims</h3>
+                <div id="claims_rowchart"></div>
+            </div>
+            
+        </div>
+            
+		</div>	
+			
+
+			
+        
+		
+		
+		  
+		 
+		  
+		 
+		  
+        
+
+        <!--PIE CHARTS-->
+        <div class="row" id="charts02">
+            <div class="col-6 col-lg-3">
+                <h3>Likes</h3>
+                <div id="number_of_likes" class="pie"></div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <h3>Dislikes</h3>
+                <div id="number_of_dislikes" class="pie"></div>
+            </div>
+            
+            <div class="col-6 col-lg-3">
+                <h3>Total Views</h3>
+                <div id="total_view_count" class="pie"></div>
+            </div>
+			 <div class="col-6 col-lg-3">
+                    <h3>Average Views</h3>
+                    <i id="avg_view_number" class="fas fa-hashtag fa-3x"></i> <span class="number-box"></span>
+              </div>
+
+        </div>
+    </div>
+
+  <!--  <section class="bgimage2"></section> -->
+
+	
+	
+	<div class="container" id="main3">
+
+        <!--Bubble Chart-->
+        <div id="bubbleChart" class="row col-12">
+            <h3>Average views / Ingredients </h3>
+            <div id="bubble_chart"></div>
+        </div>
+
+
+        <!--Table-->
+        <div id="table" class="row">
+            <h3>Filtered Results</h3>
+            <table id="results-table" class="col-12 table"></table>
+            <div class="col-12" id="paging">
+                <article>Showing <span id="begin"></span>-<span id="end"></span> of <span id="size"></span>.</article>
+                <button id="previous" type="button" class="btn btn-primary"><i class="fas fa-angle-left"></i> Previous</button>
+                <button id="next" type="button" class="btn btn-primary">Next <i class="fas fa-angle-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal2 fade show" id="screen-size-modal" tabindex="10" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ModalCenterTitle">Dear User</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true" onclick="document.getElementById('screen-size-modal').style.display='none'" >&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    You are viewing this website on a tablet or mobile device. For best user expereience please visit the website on a desktop.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" onclick="document.getElementById('screen-size-modal').style.display='none'" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>

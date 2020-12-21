@@ -83,7 +83,7 @@ function show_ing_list(ndx)
 
     dc.rowChart("#ing_main_chart")
 		.renderLabel(true)
-        .width(400)
+        .width(280)
         .height(400)
         .margins({ top: 20, left: 10, right: 10, bottom: 20 })
         .dimension(dim)
@@ -164,8 +164,8 @@ function show_category(ndx){
     var fakeGroup = remove_empty_bins(group);
 
     dc.barChart('#category_bar')
-        .width(450)
-        .height(330)
+        .width(280)
+        .height(350)
         .dimension(dim)
         .group(fakeGroup)
         .elasticX(true)
@@ -216,8 +216,8 @@ function show_ing_dept_ing(ndx){
     var group = dim.group();
 
     dc.pieChart("#department_type")
-        .height(300)
-        .radius(200)
+        .height(250)
+        .radius(100)
         .transitionDuration(1000)
         .dimension(dim)
         .group(group)
@@ -242,7 +242,7 @@ function show_total_views(ndx){
 
     dc.pieChart("#total_view_count")
         .height(250)
-        .radius(200)
+        .radius(100)
         .transitionDuration(1000)
         .dimension(dim)
         .group(group)
@@ -289,7 +289,7 @@ function show_avg_view_per_ing(ndx){
 
 
     dc.bubbleChart("#bubble_chart")
-        .width(900)
+        .width(1100)
         .height(400)
         .margins({top: 10, right: 50, bottom: 50, left: 68})
         .dimension(areaDim)
