@@ -1,0 +1,230 @@
+[
+    {
+        "ad_id": "1340003",
+        "area": [
+            "water",
+            "curd",
+            "citric acid"
+			],
+        "bathrooms": 2,
+        "beds": 4,
+        "category": "FACEPACK",
+        "county": "Dublin",
+        "facility": [
+            "Parking",
+            "Alarm",
+            "Wired for Cable Television"
+        ],
+        "latitude": 53.28928936,
+        "longitude": -6.28479036,
+        "no_of_photos": 6,
+        "open_viewing": "no",
+        "page_name": "PropertyDetails",
+        "price": 645000,
+        "price_type": "",
+        "property_category": "sale",
+        "property_title": "12 Whitechurch Abbey, Grange Road, Rathfarnham, Dublin 14",
+        "property_type": "skincare",
+        "published_date": "2018-06-10",
+        "seller_id": 8797,
+        "seller_name": "OMD Estate Agents",
+        "seller_type": "private",
+        "selling_type": "private-treaty",
+        "surface": 145.0,
+        "url": "http://www.daft.ie/dublin/houses-for-sale/rathfarnham/12-whitechurch-abbey-grange-road-rathfarnham-dublin-340003/"
+    },
+    {
+        "ad_id": "11544405",
+        "area": [
+            "water",
+            "lemon",
+            "rice"
+			],
+        "bathrooms": 4,
+        "beds": 6,
+        "category": "FACIAL",
+        "county": "Dublin",
+        "facility": [
+            ""
+        ],
+        "latitude": 53.310903,
+        "longitude": -6.254877,
+        "no_of_photos": 45,
+        "open_viewing": "no",
+        "page_name": "PropertyDetails",
+        "price": 6400000,
+        "price_type": "region",
+        "property_category": "sale",
+        "property_title": "High Cross, 40 Temple Road, Dartry, Dublin 6",
+        "property_type": "facecare",
+        "published_date": "2018-09-04",
+        "seller_id": 2631,
+        "seller_name": "Sherry Fitzgerald",
+        "seller_type": "agent",
+        "selling_type": "private-treaty",
+        "surface": 557.4,
+        "url": "http://www.daft.ie/dublin/houses-for-sale/dartry/high-cross-40-temple-road-dartry-dublin-1544405/"
+    },
+    {
+        "ad_id": "11544402",
+        "area":[
+            "sugar",
+            "yoghurt",
+            "citric acid"
+			],
+        "bathrooms": 7,
+        "beds": 6,
+        "category": "CREAM",
+        "county": "Dublin",
+        "facility": [
+            ""
+        ],
+        "latitude": 53.310959,
+        "longitude": -6.253709,
+        "no_of_photos": 36,
+        "open_viewing": "no",
+        "page_name": "PropertyDetails",
+        "price": 5300000,
+        "price_type": "region",
+        "property_category": "sale",
+        "property_title": "Ellerslie, 46 Temple Road, Dartry, Dublin 6",
+        "property_type": "skincare",
+        "published_date": "2018-09-04",
+        "seller_id": 2631,
+        "seller_name": "Sherry Fitzgerald",
+        "seller_type": "agent",
+        "selling_type": "private-treaty",
+        "surface": 633.0,
+        "url": "http://www.daft.ie/dublin/houses-for-sale/dartry/ellerslie-46-temple-road-dartry-dublin-1544402/"
+    },
+    {
+        "ad_id": "11544148",
+        "area":[
+            "salt",
+            "sugar",
+            "lemon"
+			],
+        "bathrooms": 1,
+        "beds": 4,
+        "category": "CREAM",
+        "county": "Dublin",
+        "facility": [
+            ""
+        ],
+        "latitude": 53.329483,
+        "longitude": -6.240903,
+        "no_of_photos": 13,
+        "open_viewing": "no",
+        "page_name": "PropertyDetails",
+        "price": 3000000,
+        "price_type": "region",
+        "property_category": "sale",
+        "property_title": "46 Wellington Road, Ballsbridge, Dublin 4",
+        "property_type": "facecare",
+        "published_date": "2018-09-04",
+        "seller_id": 9990,
+        "seller_name": "Sherry Fitzgerald",
+        "seller_type": "agent",
+        "selling_type": "private-treaty",
+        "surface": 278.0,
+        "url": "http://www.daft.ie/dublin/houses-for-sale/ballsbridge/46-wellington-road-ballsbridge-dublin-1544148/"
+    },
+    {
+        "ad_id": "11542185",
+        "area": [
+            "salt",
+            "sugar",
+            "lemon"
+			],
+        "bathrooms": 4,
+        "beds": 5,
+        "category": "SHAMPOO",
+        "county": "Dublin",
+        "facility": [
+            ""
+        ],
+        "latitude": 53.294310736086,
+        "longitude": -6.2239158153534,
+        "no_of_photos": 1,
+        "open_viewing": "no",
+        "page_name": "PropertyDetails",
+        "price": 3000000,
+        "price_type": "on-application",
+        "property_category": "sale",
+        "property_title": "The Lawson, Knockrabo, Mount Anville Road,, Goatstown, Dublin 14",
+        "property_type": "skincare",
+        "published_date": "-0001-11-30",
+        "seller_id": 8836,
+        "seller_name": "DNG",
+        "seller_type": "agent",
+        "selling_type": "",
+        "surface": 207.0,
+        "url": "http://www.daft.ie/dublin/houses-for-sale/goatstown/the-lawson-knockrabo-mount-anville-road-goatstown-dublin-1542185/"
+    },
+    {
+        "ad_id": "11542184",
+        "area": [
+            "salt",
+            "sugar",
+            "lemon"
+			],
+        "bathrooms": 4,
+        "beds": 4,
+        "category": "CREAM",
+        "county": "Dublin",
+        "facility": [
+            ""
+        ],
+        "latitude": 53.294310736086,
+        "longitude": -6.2239158153534,
+        "no_of_photos": 0,
+        "open_viewing": "no",
+        "page_name": "PropertyDetails",
+        "price": 3000000,
+        "price_type": "on-application",
+        "property_category": "sale",
+        "property_title": "The Mimosa, Knockrabo, Mount Anville Road,, Goatstown, Dublin 14",
+        "property_type": "facecare",
+        "published_date": "-0001-11-30",
+        "seller_id": 8836,
+        "seller_name": "DNG",
+        "seller_type": "agent",
+        "selling_type": "",
+        "surface": 173.0,
+        "url": "http://www.daft.ie/dublin/houses-for-sale/goatstown/the-mimosa-knockrabo-mount-anville-road-goatstown-dublin-1542184/"
+    },
+    {
+        "ad_id": "11519662",
+        "area": [
+            "salt",
+            "sugar"
+           
+			],
+        "bathrooms": 3,
+        "beds": 4,
+        "category": "POWDER",
+        "county": "Dublin",
+        "facility": [
+            ""
+        ],
+        "latitude": 53.29492634858,
+        "longitude": -6.2698566913605,
+        "no_of_photos": 15,
+        "open_viewing": "no",
+        "page_name": "PropertyDetails",
+        "price": 795000,
+        "price_type": "from",
+        "property_category": "sale",
+        "property_title": "4 Bed Semi-detached with study, CastlePark, Whitehall Road, Churchtown, Dublin 14",
+        "property_type": "skincare",
+        "published_date": "2018-05-23",
+        "seller_id": 8836,
+        "seller_name": "DNG",
+        "seller_type": "agent",
+        "selling_type": "",
+        "surface": 165.0,
+        "url": "http://www.daft.ie/dublin/houses-for-sale/churchtown/4-bed-semi-detached-with-study-castlepark-whitehall-road-churchtown-dublin-1519662/"
+    },
+
+	
+	]
