@@ -13,33 +13,34 @@
 		<link rel="stylesheet" href="css/fx.css" />
 		<link rel="stylesheet" href="css/custom.css" />
 		
+		<link rel="stylesheet" href="static/css/bootstrap.min.css">
+   
+    <link rel="stylesheet" href="static/css/dc.min.css" type="text/css" />
+   
+		
 	</head>
     <body class="light-page">
 		<div id="wrap">
 			<nav id="nav-logo-list" class="navbar light">
     			<div class="container">
-        			<div class="row align-items-center">
-            			<div class="col-auto mr-auto">
-                			<a class="navbar-brand" href="#">
-                    			<img src="images/cklogo.png" height="60px" class="mw-100" alt="logo">
-                			</a>
-                			<p class="navbar-text text-secondary ml-10">
-                    YouTube Analytics Dashboard
-                			</p>
-            			</div>
-            			<div class="col-auto hidden-sm">
-                			<ul class="navbar-text list-inline small">
-                    			<li class=""><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 0 16 16" width="16" class="icon icon-pos-left svg-default"><path d="m.99052845 1.73676599.56361347-.56361348 4.14772049 4.14772049c-.5530294.5530294 0 1.6590882 1.6590882 3.31817639 1.65908819 1.65908821 2.76514699 2.21211761 3.31817639 1.65908821l4.1477205 4.1477205-.5635607.5635607.0000123.0000123c-.1832569.1832569-.4220376.3006747-.6790607.3339206-2.6541817.3433184-5.55815505-1.061905-8.71192009-4.21567-3.15372572-3.15372574-4.55895333-6.05766601-4.21568285-8.71182085l-.00003523-.00000455c.03324308-.25703422.1506638-.4958259.33392822-.67909031zm.56361347-.56361348.8295441-.82954409c.45814456-.45814456 1.20094364-.45814456 1.6590882 0l2.48863229 2.48863229c.45814455.45814455.45814455 1.20094364 0 1.65908819l-.8295441.8295441zm9.12498508 9.12498509.8295441-.82954411c.4581446-.45814455 1.2009436-.45814455 1.6590882 0l2.4886323 2.48863231c.4581445.4581445.4581445 1.2009436 0 1.6590882l-.8295441.8295441z" fill-rule="evenodd"></path></svg>Telephone</li>
-                    			<li class=""><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 0 16 16" width="16" class="icon icon-pos-left svg-default"><path d="m8 16c-3.3137085 0-6-2.1894737-6-5.8947368 0-3.7052632 6-10.1052632 6-10.1052632s6 6.4 6 10.1052632c0 3.7052631-2.6862915 5.8947368-6 5.8947368zm0-4c1.1045695 0 2-.8954305 2-2s-.8954305-2-2-2-2 .8954305-2 2 .8954305 2 2 2z" fill-rule="evenodd" transform="matrix(1 0 0 -1 0 16)"></path></svg>Address</li>
-                    			<li class=""><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 0 16 16" width="16" class="icon icon-pos-left svg-default"><path d="m9 7v-4h-2v4h-4v2h6zm-9 1c0-4.418278 3.59071231-8 8-8 4.418278 0 8 3.59071231 8 8 0 4.418278-3.5907123 8-8 8-4.418278 0-8-3.5907123-8-8z" fill-rule="evenodd"></path></svg>Work time</li>
-                			</ul>
-            			</div>
-        			</div>
+        			
+
+						<nav class="navbar fixed-top navbar-expand-lg navbar-light">
+							<div class="container">
+								<h2><b>YouTube Analytics<span> Dashboard</span></b></h2>
+										<img src="images/cklogo.png" height="41" width="129" alt="CAVINKARE">
+							</div>
+						</nav>
+            			
+        			
     			</div>
+				&nbsp;
+				
     			<div class="bg-wrap">
         			<div class="bg"></div>
     			</div>
-			</nav><section id="benefits-4col" class="pt-50 light">
+			</nav>
+			<section id="benefits-4col" class="pt-50 light">
     			<div class="container">
         			<div class="row">
             			<div class="col-lg-3 col-md-6">
@@ -106,11 +107,11 @@
 			
 							<div class="dc-data-count">
        
-								<strong><span class="filter-count"></span> entries selected out of <span class="total-count"></span> entries | </strong>
+								<h4><strong><span class="filter-count"></span> entries selected out of <span class="total-count"></span> entries | </strong>
             
 								<a class="btn btn-primary btn-sm" href="javascript:dc.filterAll(); dc.renderAll();"><strong>Reset All</strong></a>
               
-			
+								</h4>
        
 							</div>
 						</div>
@@ -125,19 +126,8 @@
 			<section id="benefits-4col-5" class="light">
     			<div class="container-fluid">
         			<div class="row no-gutters">
-            			<div class="col-lg-3 d-flex flex-column flex-equal-items">
-                			<div class="content-box padding-x2" style="background-color:#F2F0ED;">
-                    			
-                    			<h4 class="mb-20"><strong>Ingredient List</strong></h4>
-                    			
-                    			
-								 <div id="ing_main_chart"></div>
-								
-								
-								
-                			</div>
-            			</div>
-            			<div class="col-lg-3 d-flex flex-column flex-equal-items">
+            			
+            			<div class="col-lg-2 d-flex flex-column flex-equal-items">
                 			<div class="content-box padding-x2" style="background-color:#F4F5F6;">
                     			
                     			<h4 class="mb-20"><strong>Department</strong></h4>
@@ -145,7 +135,7 @@
                     			
                 			</div>
             			</div>
-            			<div class="col-lg-3 d-flex flex-column flex-equal-items">
+            			<div class="col-lg-2 d-flex flex-column flex-equal-items">
                 			<div class="content-box padding-x2" style="background-color:#e6f2ff;">
                     			
                     			<h4 class="mb-20"><strong>Category</strong></h4>
@@ -155,28 +145,9 @@
 								
                 			</div>
             			</div>
-            			<div class="col-lg-3 d-flex flex-column flex-equal-items">
-                			<div class="content-box padding-x2">
-                    			
-                    			<h4 class="mb-20"><strong>Claims</strong></h4>
-                    			<div id="claims_rowchart"></div>
-                    			
-                			</div>
-            			</div>
+
 						
-						
-						
-        			</div>
-    			</div>
-    			<div class="bg-wrap">
-        			<div class="bg"></div>
-    			</div>
-			</section><section id="benefits-3col-2" class="light">
-    			<div class="container-fluid">
-        			<div class="row no-gutters">
-            			
-						
-						<div class="col-lg col-md-6">
+						<div class="col-lg-2 d-flex flex-column flex-equal-items">
 						<div class="content-box padding-x2 border-lg-right">
                     
 						<h4 class="mb-20"><strong>No. of LIKES</strong></h4>
@@ -184,7 +155,7 @@
 						</div>
 						</div>
 						
-						<div class="col-lg col-md-6">
+						<div class="col-lg-2 d-flex flex-column flex-equal-items">
 						<div class="content-box padding-x2 border-lg-right">
                     
 						<h4 class="mb-20"><strong>No. of Dislikes</strong></h4>
@@ -204,11 +175,45 @@
 						<div class="content-box padding-x2 border-lg-right">
                     
 						<h4 class="mb-20"><strong>Avg Views for the Ingredient</strong></h4>
-						<h1><strong class="count-up-data"><i id="avg_view_number" class="fas fa-hashtag fa-3x"></i> </strong></h1>
+						<h2><b><strong class="count-up-data"><i id="avg_view_number" class="fas fa-hashtag fa-3x"></i> </strong></b></h2>
 						<h2><strong>Views</strong></h2>
 						<i id="avg_view_number" class="fas fa-hashtag fa-3x"></i> 
 						</div>
 						</div>
+						
+						
+        			</div>
+    			</div>
+    			<div class="bg-wrap">
+        			<div class="bg"></div>
+    			</div>
+			</section><section id="benefits-3col-2" class="light">
+    			<div class="container-fluid">
+        			<div class="row no-gutters">
+					
+					
+					<div class="col-lg-6 d-flex flex-column flex-equal-items">
+                			<div class="content-box padding-x2" style="background-color:#F2F0ED;">
+                    			
+                    			<h4 class="mb-20"><strong>Ingredient List</strong></h4>
+                    			
+                    			
+								 <div id="ing_main_chart"></div>
+								
+								
+								
+                			</div>
+            			</div>
+						
+						
+						<div class="col-lg-6 d-flex flex-column flex-equal-items">
+                			<div class="content-box padding-x2">
+                    			
+                    			<h4 class="mb-20"><strong>Claims</strong></h4>
+                    			<div id="claims_rowchart"></div>
+                    			
+                			</div>
+            			</div>	
 						
 						
         			</div>
@@ -223,12 +228,9 @@
 				<div class="container-fluid">
 					<div class="row  align-items-center">
 				
-						<div class="col-lg-6 padding-x2 ml-auto mr-auto mt-lg-100 mb-lg-100">
-							<h3><strong>      Average views</strong></h3>
-						<div id="bubble_chart"></div>
-					</div>
+					
             
-				<div class="col-lg-6 table-responsive padding-x2 ml-auto mr-auto mt-lg-100 mb-lg-100">
+				<div class="col-lg table-responsive padding-x2">
                 <h3><strong>Filtered Results</strong></h3>
 				<table id="results-table" class="col-12 table"></table>
 				<div class="col-12" id="paging">
@@ -247,6 +249,24 @@
 					</div>
 			</section>
 			
+			
+			<section class="light">
+				<div class="container-fluid">
+					<div class="row  align-items-center">
+				
+						<div class="col-lg padding-x2">
+							<h3><strong>      Average views</strong></h3>
+						<div id="bubble_chart"></div>
+					</div>
+            
+			
+            </div>
+        </div>
+    
+					<div class="bg-wrap">
+						<div class="bg"></div>
+					</div>
+			</section>
 			
 			
 			

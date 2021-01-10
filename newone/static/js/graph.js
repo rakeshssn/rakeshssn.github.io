@@ -83,7 +83,7 @@ function show_ing_list(ndx)
 
     dc.rowChart("#ing_main_chart")
 		.renderLabel(true)
-        .width(400)
+        .width(700)
         .height(400)
         .margins({ top: 20, left: 10, right: 10, bottom: 20 })
         .dimension(dim)
@@ -146,7 +146,7 @@ function show_claims(ndx){
     var group = dim.group();
 
     dc.rowChart('#claims_rowchart')
-        .width(400)
+        .width(600)
         .height(400)
         .dimension(dim)
         .group(group)
@@ -164,7 +164,7 @@ function show_category(ndx){
     var fakeGroup = remove_empty_bins(group);
 
     dc.barChart('#category_bar')
-        .width(350)
+        .width(300)
         .height(330)
         .dimension(dim)
         .group(fakeGroup)
@@ -289,7 +289,7 @@ function show_avg_view_per_ing(ndx){
 
 
     dc.bubbleChart("#bubble_chart")
-        .width(600)
+        .width(1400)
         .height(400)
         .margins({top: 10, right: 50, bottom: 50, left: 68})
         .dimension(areaDim)
@@ -346,7 +346,7 @@ function show_table_of_properties(ndx){
 							{ 
 							
 							
-							return `<a href="javascript:void(0)" tooltip= "${d.youtube_header}" <i class='fas fa-comment-alt fa-2x'></i></a>`;}
+							return `<a href="javascript:void(0)" tooltip = "${d.youtube_header}" <i class='fas fa-comment-alt fa-2x'></i></a>`;}
                        
 
 					   },
