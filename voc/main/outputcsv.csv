@@ -1,0 +1,279 @@
+prodouct_type,product_sku,product_variant,review_posted-date,reviewer_name,rating_of_product,review_comments,final_sentiment,aspect,ecommerce_platform,product_classification
+"Indica ",Indica EHCNB 25ml,Haircolor,6-Oct-16,NULL,3.0 out of 5 stars,its just a dye like others but be lilll careful while you colour hair,positive,"['dye like others', 'lilll careful', 'colour hair']",Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,30-May-19,NULL,5.0 out of 5 stars,Product is easy to use,positive,"['use', 'product', 'easy']",Amazon,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,30-May-19,NULL,5.0 out of 5 stars,Product is easy to use,positive,"['use', 'product', 'easy']",Amazon,effectonhair
+"Indica ",Indica EHCNB 25ml,Haircolor,8-Nov-19,NULL,3.0 out of 5 stars,Ok,positive,['ok'],Amazon,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,6-Jul-19,NULL,4.0 out of 5 stars,Price is high,neutral,"['price', 'high']",Amazon,pricing
+"Indica ",Indica ESHCB 18ml,Haircolor,6-Jul-19,NULL,4.0 out of 5 stars,Price is high,neutral,"['price', 'high']",Amazon,effectonhair
+"Indica ",Indica EHCNB 25ml,Haircolor,27-Feb-19,NULL,4.0 out of 5 stars,Good,positive,['good'],Amazon,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,20-Sep-19,NULL,3.0 out of 5 stars,Ok,positive,['ok'],Amazon,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,20-Sep-19,NULL,3.0 out of 5 stars,Ok,positive,['ok'],Amazon,effectonhair
+"Indica ",Indica EHCNB 25ml,Haircolor,21-Sep-17,NULL,5.0 out of 5 stars,"Easy to use and the best ",positive,"['use', 'easy', 'best']",Amazon,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,18-Jul-19,NULL,4.0 out of 5 stars,Easy to use,positive,"['use', 'easy']",Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,18-Jul-19,NULL,4.0 out of 5 stars,Easy to use,positive,"['use', 'easy']",Amazon,packaging
+"Indica ",Indica EHCNB 25ml,Haircolor,30-Nov-17,NULL,5.0 out of 5 stars,Good product,positive,['good product'],Amazon,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,29-Oct-19,NULL,3.0 out of 5 stars,Good,positive,['good'],Amazon,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,29-Oct-19,NULL,3.0 out of 5 stars,Good,positive,['good'],Amazon,effectonhair
+"Indica ",Indica EHCNB 25ml,Haircolor,25 April 2018,NULL,NULL,"It is a single sachet whose MRP is Rs      I was fooled into buying it at Rs    ",negative,"['rs', 'fooled', 'buying']",Amazon,pricing
+Indica,Indica10minCDB,Haircolor,14-Feb-20,NULL,5.0 out of 5 stars,"bought it for my mother  she says  it s the best hair color she has used to date  thank u Flipkart fit pricing such a good product on cheap  and thank u Indica for making such good quality products ",positive,"['thank u indica', 'best hair color', 'good quality products', 'good product', 'used', 'says', 'mother', 'making', 'cheap', 'bought']",flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,2-Nov-19,NULL,4.0 out of 5 stars,Nice,positive,['nice'],Amazon,effectonhair
+"Indica ",Indica EHCNB 25ml,Haircolor,19-Dec-18,NULL,5.0 out of 5 stars,"effective and easy to use for all types of hair ",positive,"['use', 'types', 'hair', 'effective', 'easy']",Amazon,effectonhair
+Indica,Indica10minCDB,Haircolor,16-Nov-19,NULL,3.0 out of 5 stars,good,positive,['good'],flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,30-Nov-19,NULL,1.0 out of 5 stars,"I think this is a duplicate product the colour won t last long  not even day     Even after   days of head wash the colour stains are spread on pillow covers   ",negative,"['even day even', 'pillow covers', 'last long', 'head wash', 'duplicate product', 'colour stains', 'colour', 'think', 'spread', 'days']",Amazon,effectonhair
+"Indica ",Indica EHCNB 25ml,Haircolor,7-Oct-16,NULL,5.0 out of 5 stars,best,positive,['best'],Amazon,quality
+Indica,Indica10minCDB,Haircolor,16-Nov-19,NULL,5.0 out of 5 stars,"Nice color not very dark looks natural n delivery is also well in time ",positive,"['nice color', 'also well', 'time']",flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,23-Aug-19,NULL,4.0 out of 5 stars,Good but overpriced,positive,"['overpriced', 'good']",Amazon,effectonhair
+"Indica ",Indica EHCNB 25ml,Haircolor,15-May-18,NULL,1.0 out of 5 stars,"Worst product   its ckst is also soo high   they charged me     for   packets   ",negative,"['also soo high', 'worst product', 'packets', 'ckst', 'charged']",Amazon,quality
+Indica,Indica10minCDB,Haircolor,14-May-20,NULL,5.0 out of 5 stars,Very good product I m very happy for thik you flipkart,positive,"['good product', 'thik', 'happy', 'flipkart']",flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,2-Oct-19,NULL,3.0 out of 5 stars,Nice,positive,['nice'],Amazon,effectonhair
+"Indica ",Indica EHCNB 25ml,Haircolor,11-Feb-19,NULL,3.0 out of 5 stars,Ok,positive,['ok'],Amazon,quality
+Indica,Indica10minCDB,Haircolor,14-May-20,NULL,3.0 out of 5 stars,"color is very good but note Braun color only black     ",positive,"['note braun color', 'color', 'good', 'black']",flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,10-Mar-20,NULL,4.0 out of 5 stars,Good,positive,['good'],Amazon,effectonhair
+"Indica ",Indica EHCNB 25ml,Haircolor,24-Jul-19,NULL,1.0 out of 5 stars,Dislike,negative,['dislike'],Amazon,effectonhair
+Indica,Indica10minCDB,Haircolor,14-May-20,NULL,1.0 out of 5 stars,Nt like,negative,['nt like'],flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,29-Oct-19,NULL,5.0 out of 5 stars,Easy to use,positive,"['use', 'easy']",Amazon,packaging
+"Indica ",Indica EHCNB 25ml,Haircolor,13 April 2017,NULL,3.0 out of 5 stars,"Good colour to use ",positive,"['good colour', 'use']",Amazon,quality
+Indica,Indica10minCDB,Haircolor,14-May-20,NULL,1.0 out of 5 stars,"Very sad to get less then     liquid developer  Got used material   Flipkart is giving very bad material  Product is giving non refundable and item is too less  Written   ml but got only      ml only Worst thing ",negative,"['bad material product', 'giving non refundable', 'less written ml', 'get less', 'worst thing', 'ml', 'giving', 'sad', 'item', 'got']",flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,30-May-19,NULL,5.0 out of 5 stars,Product is easy to use,positive,"['use', 'product', 'easy']",Amazon,effectonhair
+"Indica ",Indica EHCNB 25ml,Haircolor,21-Nov-17,NULL,5.0 out of 5 stars,Goood,neutral,['goood'],Amazon,effectonhair
+Indica,Indica10minCDB,Haircolor,14-May-20,NULL,3.0 out of 5 stars,Not that good But not that bad,positive,"['good', 'bad']",flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,6-Jul-19,NULL,4.0 out of 5 stars,Price is high,neutral,"['price', 'high']",Amazon,effectonhair
+"Indica ",Indica EHCNB 25ml,Haircolor,24-Oct-17,NULL,5.0 out of 5 stars,Easy to use,positive,"['use', 'easy']",Amazon,effectonhair
+Indica,Indica10minCDB,Haircolor,14-May-20,NULL,4.0 out of 5 stars,"Very nice product comparing with other product     to    minutes time  Colour ok ",positive,"['nice product comparing', 'product']",flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,20-Sep-19,NULL,3.0 out of 5 stars,Ok,positive,['ok'],Amazon,effectonhair
+"Indica ",Indica EHCNB 25ml,Haircolor,8-Jan-19,NULL,3.0 out of 5 stars,Nice,positive,['nice'],Amazon,quality
+Indica,Indica10minCDB,Haircolor,14-May-20,NULL,5.0 out of 5 stars,"Thanks Flipkart     ",positive,['thanks flipkart'],flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,18-Jul-19,NULL,4.0 out of 5 stars,Easy to use,positive,"['use', 'easy']",Amazon,packaging
+"Indica ",Indica EHCNB 25ml,Haircolor,25-Jun-17,NULL,3.0 out of 5 stars,"Nice but same as other hair colours ",positive,"['hair colours', 'nice']",Amazon,effectonhair
+Indica,Indica10minCDB,Haircolor,14-May-20,NULL,5.0 out of 5 stars,"Good product and fast delivery  ",positive,"['good product', 'fast delivery']",flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,29-Oct-19,NULL,3.0 out of 5 stars,Good,positive,['good'],Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,8-Oct-19,NULL,4.0 out of 5 stars,Good stuff  they give you a pair of gloves with it  which is nice as in the powder format you don t get one  However  i feel one sachet is not enough when you have a decent hair full  be prepared to use two if you really want to make sure all your sides are taken care of,positive,"['get one however', 'feel one sachet', 'decent hair full', 'use two', 'taken care', 'really want', 'powder format', 'make sure', 'good stuff', 'sides']",Amazon,effectonhair
+Indica,Indica10minCDB,Haircolor,15-Mar-20,NULL,2.0 out of 5 stars,No result bad product,negative,['result bad product'],flipkart,quality
+"Indica ",Indica ESHCB 25ml,Haircolor,17-Aug-17,NULL,5.0 out of 5 stars,Good,positive,['good'],Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,29-May-19,NULL,5.0 out of 5 stars,Good hair color      easy to use,positive,['use'],Amazon,effectonhair
+Indica,Indica10minCDB,Haircolor,15-Mar-20,NULL,1.0 out of 5 stars,"useless product weast money do not buying this product ",negative,"['product', 'buying']",flipkart,quality
+"Indica ",Indica ESCNB 25ml,Haircolor,21-Aug-19,NULL,5.0 out of 5 stars,Really good,positive,['really good'],Amazon,packaging
+"Indica ",Indica ESHCB 18ml,Haircolor,23-Jun-19,NULL,5.0 out of 5 stars,"Easy to use  convenient to buy  long lasting   natural colour  value for money   ",positive,"['use convenient', 'money', 'easy']",Amazon,quality
+Indica,Indica10minCDB,Haircolor,15-Mar-20,NULL,3.0 out of 5 stars,Nice,positive,['nice'],flipkart,quality
+"Indica ",Indica ESCNB 25ml,Haircolor,6-Jul-19,NULL,5.0 out of 5 stars,"Fine    ",positive,['fine'],Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,10-Oct-19,NULL,5.0 out of 5 stars,Nice product n very easy to use  Color stays for around   weeks unless you are not shampooing your hair too frequently,positive,"['use color stays', 'nice product n', 'around weeks unless', 'shampooing', 'hair', 'frequently', 'easy']",Amazon,quality
+Indica,Indica10minCDB,Haircolor,15-Mar-20,NULL,1.0 out of 5 stars,Did not do what it says disappointed no effect on white hair for coverage,negative,"['white hair', 'says disappointed', 'effect', 'coverage']",flipkart,effectonhair
+"Indica ",Indica ESCNB 25ml,Haircolor,10-Aug-19,NULL,5.0 out of 5 stars,Very nice and long lasting and innovative hair coloring,positive,"['innovative hair coloring', 'long lasting', 'nice']",Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,11-Mar-20,NULL,1.0 out of 5 stars,"Received only   packets  though mentioned is    packets  Please send remaining   packets  One indica shampoo is there which I don t need ",negative,"['packets though mentioned', 'received', 'need']",Amazon,packaging
+Indica,Indica10minCDB,Haircolor,15-Mar-20,NULL,1.0 out of 5 stars,Bad produced,negative,['bad produced'],flipkart,quality
+"Indica ",Indica ESCNB 25ml,Haircolor,13-Aug-19,NULL,4.0 out of 5 stars,It was indeed easy  and quick to use,positive,"['indeed easy', 'use', 'quick']",Amazon,packaging
+"Indica ",Indica ESHCB 18ml,Haircolor,4-Mar-19,NULL,5.0 out of 5 stars,Good product,positive,['good product'],Amazon,quality
+Indica,Indica10minCDB,Haircolor,14-Feb-20,NULL,3.0 out of 5 stars,ok,positive,['ok'],flipkart,quality
+"Indica ",Indica ESCNB 25ml,Haircolor,29-Oct-19,NULL,3.0 out of 5 stars,Esy to use,neutral,"['use', 'esy']",Amazon,packaging
+"Indica ",Indica ESHCB 18ml,Haircolor,14-Aug-19,NULL,5.0 out of 5 stars,best,positive,['best'],Amazon,quality
+Indica,Indica10minCDB,Haircolor,14-Feb-20,NULL,5.0 out of 5 stars,Gooood,neutral,['gooood'],flipkart,effectonhair
+"Indica ",Indica ESCNB 25ml,Haircolor,20-Oct-19,NULL,5.0 out of 5 stars,Good,positive,['good'],Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,2-Nov-19,NULL,5.0 out of 5 stars,Good product,positive,['good product'],Amazon,quality
+Indica,Indica10minCDB,Haircolor,14-Feb-20,NULL,5.0 out of 5 stars,good,positive,['good'],flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,8-Oct-19,NULL,4.0 out of 5 stars,Good stuff  they give you a pair of gloves with it  which is nice as in the powder format you don t get one  However  i feel one sachet is not enough when you have a decent hair full  be prepared to use two if you really want to make sure all your sides are taken care of,positive,"['get one however', 'feel one sachet', 'decent hair full', 'use two', 'taken care', 'really want', 'powder format', 'make sure', 'good stuff', 'sides']",Amazon,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,28-Oct-19,NULL,5.0 out of 5 stars,"Does what it says ",neutral,['says'],Amazon,effectonhair
+Indica,Indica10minCDB,Haircolor,14-Feb-20,NULL,5.0 out of 5 stars,good,positive,['good'],flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,23-Jun-19,NULL,5.0 out of 5 stars,"Easy to use  convenient to buy  long lasting   natural colour  value for money   ",positive,"['use convenient', 'money', 'easy']",Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,12-Nov-19,NULL,5.0 out of 5 stars,Wow,positive,['wow'],Amazon,effectonhair
+Indica,Indica10minCDB,Haircolor,14-Feb-20,NULL,5.0 out of 5 stars,"bought it for my mother  she says  it s the best hair color she has used to date  thank u Flipkart fit pricing such a good product on cheap  and thank u Indica for making such good quality products ",positive,"['thank u indica', 'best hair color', 'good quality products', 'good product', 'used', 'says', 'mother', 'making', 'cheap', 'bought']",flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,11-Mar-20,NULL,1.0 out of 5 stars,"Received only   packets  though mentioned is    packets  Please send remaining   packets  One indica shampoo is there which I don t need ",negative,"['packets though mentioned', 'received', 'need']",Amazon,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,20-Aug-19,NULL,5.0 out of 5 stars,Very good product easy to use,positive,"['good product easy', 'use']",Amazon,quality
+Indica,Indica10minCDB,Haircolor,16-Nov-19,NULL,3.0 out of 5 stars,gd,neutral,['gd'],flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,14-Aug-19,NULL,5.0 out of 5 stars,best,positive,['best'],Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,31-Jul-19,NULL,5.0 out of 5 stars,"Its use is so easy inside the sachet you will get an use n through handglove also Quick result no side effects ",positive,"['side effects', 'easy inside', 'use n', 'use', 'sachet', 'get']",Amazon,effectonhair
+Indica,Indica10minCDB,Haircolor,16-Nov-19,NULL,5.0 out of 5 stars,"Nice color not very dark looks natural n delivery is also well in time ",positive,"['nice color', 'also well', 'time']",flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,2-Oct-19,NULL,3.0 out of 5 stars,Nice,positive,['nice'],Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,2-Oct-19,NULL,3.0 out of 5 stars,Nice,positive,['nice'],Amazon,quality
+Indica,Indica10minCDB,Haircolor,14-May-20,NULL,5.0 out of 5 stars,Very good product I m very happy for thik you flipkart,positive,"['good product', 'thik', 'happy', 'flipkart']",flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,10-Mar-20,NULL,4.0 out of 5 stars,Good,positive,['good'],Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,10-Mar-20,NULL,4.0 out of 5 stars,Good,positive,['good'],Amazon,quality
+Indica,Indica10minCDB,Haircolor,14-May-20,NULL,3.0 out of 5 stars,"color is very good but note Braun color only black     ",positive,"['note braun color', 'color', 'good', 'black']",flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,29-Oct-19,NULL,5.0 out of 5 stars,Easy to use,positive,"['use', 'easy']",Amazon,packaging
+"Indica ",Indica ESHCB 18ml,Haircolor,29-Oct-19,NULL,5.0 out of 5 stars,Easy to use,positive,"['use', 'easy']",Amazon,effectonhair
+Indica,Indica10minCDB,Haircolor,14-May-20,NULL,1.0 out of 5 stars,Nt like,negative,['nt like'],flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,30-May-19,NULL,5.0 out of 5 stars,Product is easy to use,positive,"['use', 'product', 'easy']",Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,30-May-19,NULL,5.0 out of 5 stars,Product is easy to use,positive,"['use', 'product', 'easy']",Amazon,quality
+Indica,Indica10minCDB,Haircolor,14-May-20,NULL,1.0 out of 5 stars,"Very sad to get less then     liquid developer  Got used material   Flipkart is giving very bad material  Product is giving non refundable and item is too less  Written   ml but got only      ml only Worst thing ",negative,"['bad material product', 'giving non refundable', 'less written ml', 'get less', 'worst thing', 'ml', 'giving', 'sad', 'item', 'got']",flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,6-Jul-19,NULL,4.0 out of 5 stars,Price is high,neutral,"['price', 'high']",Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,6-Jul-19,NULL,4.0 out of 5 stars,Price is high,neutral,"['price', 'high']",Amazon,pricing
+Indica,Indica10minCDB,Haircolor,14-May-20,NULL,3.0 out of 5 stars,Not that good But not that bad,positive,"['good', 'bad']",flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,20-Sep-19,NULL,3.0 out of 5 stars,Ok,positive,['ok'],Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,20-Sep-19,NULL,3.0 out of 5 stars,Ok,positive,['ok'],Amazon,quality
+Indica,Indica10minCDB,Haircolor,14-May-20,NULL,4.0 out of 5 stars,"Very nice product comparing with other product     to    minutes time  Colour ok ",positive,"['nice product comparing', 'product']",flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,18-Jul-19,NULL,4.0 out of 5 stars,Easy to use,positive,"['use', 'easy']",Amazon,packaging
+"Indica ",Indica ESHCB 18ml,Haircolor,18-Jul-19,NULL,4.0 out of 5 stars,Easy to use,positive,"['use', 'easy']",Amazon,effectonhair
+Indica,Indica10minCDB,Haircolor,14-May-20,NULL,5.0 out of 5 stars,"Thanks Flipkart     ",positive,['thanks flipkart'],flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,29-Oct-19,NULL,3.0 out of 5 stars,Good,positive,['good'],Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,29-Oct-19,NULL,3.0 out of 5 stars,Good,positive,['good'],Amazon,quality
+Indica,Indica10minCDB,Haircolor,15-Jan-20,NULL,5.0 out of 5 stars,super colour lovely,positive,['super colour lovely'],flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,2-Nov-19,NULL,4.0 out of 5 stars,Nice,positive,['nice'],Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,7-Nov-19,NULL,1.0 out of 5 stars,"I am using this product last two months I observed after finishing of head bath getting very severe headache So please don t buy this product  I think they mixed ammonia  ",negative,"['head bath getting', 'severe headache', 'mixed ammonia', 'using', 'think', 'product', 'please', 'observed', 'finishing', 'buy']",Amazon,quality
+Indica,Indica10minCDB,Haircolor,15-Jan-20,NULL,3.0 out of 5 stars,good,positive,['good'],flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,30-Nov-19,NULL,1.0 out of 5 stars,"I think this is a duplicate product the colour won t last long  not even day     Even after   days of head wash the colour stains are spread on pillow covers   ",negative,"['even day even', 'pillow covers', 'last long', 'head wash', 'duplicate product', 'colour stains', 'colour', 'think', 'spread', 'days']",Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,2-Nov-19,NULL,4.0 out of 5 stars,Nice,positive,['nice'],Amazon,quality
+Indica,Indica10minCDB,Haircolor,15-Jan-20,NULL,5.0 out of 5 stars,"nice   product  hair    colour   ",positive,[],flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,23-Aug-19,NULL,4.0 out of 5 stars,Good but overpriced,positive,"['overpriced', 'good']",Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,30-Nov-19,NULL,1.0 out of 5 stars,"I think this is a duplicate product the colour won t last long  not even day     Even after   days of head wash the colour stains are spread on pillow covers   ",negative,"['even day even', 'pillow covers', 'last long', 'head wash', 'duplicate product', 'colour stains', 'colour', 'think', 'spread', 'days']",Amazon,quality
+Indica,Indica10minCDB,Haircolor,16-Dec-19,NULL,3.0 out of 5 stars,ok,positive,['ok'],flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,2-Oct-19,NULL,3.0 out of 5 stars,Nice,positive,['nice'],Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,30-Sep-19,NULL,4.0 out of 5 stars,Nice product,positive,['nice product'],Amazon,quality
+Indica,Indica10minCDB,Haircolor,16-Dec-19,NULL,4.0 out of 5 stars,ok,positive,['ok'],flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,10-Mar-20,NULL,4.0 out of 5 stars,Good,positive,['good'],Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,23-Aug-19,NULL,4.0 out of 5 stars,Good but overpriced,positive,"['overpriced', 'good']",Amazon,quality
+Indica,Indica10minCDB,Haircolor,16-Dec-19,NULL,5.0 out of 5 stars,Very nice clour,positive,['nice clour'],flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,29-Oct-19,NULL,5.0 out of 5 stars,Easy to use,positive,"['use', 'easy']",Amazon,packaging
+"Indica ",Indica ESHCB 18ml,Haircolor,6-Jun-19,NULL,5.0 out of 5 stars,Good product,positive,['good product'],Amazon,quality
+Indica,Indica10minCDB,Haircolor,16-Dec-19,NULL,4.0 out of 5 stars,k good,positive,['k good'],flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,30-May-19,NULL,5.0 out of 5 stars,Product is easy to use,positive,"['use', 'product', 'easy']",Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,23-Feb-20,NULL,5.0 out of 5 stars,Superb,positive,['superb'],Amazon,effectonhair
+Indica,Indica10minCDB,Haircolor,16-Dec-19,NULL,3.0 out of 5 stars,good product,positive,['good product'],flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,6-Jul-19,NULL,4.0 out of 5 stars,Price is high,neutral,"['price', 'high']",Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,20-Aug-19,NULL,5.0 out of 5 stars,Very good product easy to use,positive,"['good product easy', 'use']",Amazon,quality
+Indica,Indica10minCDB,Haircolor,16-Dec-19,NULL,3.0 out of 5 stars,ok type,positive,['ok type'],flipkart,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,20-Sep-19,NULL,3.0 out of 5 stars,Ok,positive,['ok'],Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,31-Jul-19,NULL,5.0 out of 5 stars,"Its use is so easy inside the sachet you will get an use n through handglove also Quick result no side effects ",positive,"['side effects', 'easy inside', 'use n', 'use', 'sachet', 'get']",Amazon,effectonhair
+Indica,Indica10minCDB,Haircolor,17-Oct-19,NULL,4.0 out of 5 stars,measurements not given,neutral,"['measurements', 'given']",flipkart,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,18-Jul-19,NULL,4.0 out of 5 stars,Easy to use,positive,"['use', 'easy']",Amazon,packaging
+"Indica ",Indica ESHCB 18ml,Haircolor,2-Oct-19,NULL,3.0 out of 5 stars,Nice,positive,['nice'],Amazon,quality
+Indica,Indica10minCDB,Haircolor,17-Oct-19,NULL,3.0 out of 5 stars,indica is best dark brown im satisfied,positive,['indica'],flipkart,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,29-Oct-19,NULL,3.0 out of 5 stars,Good,positive,['good'],Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,10-Mar-20,NULL,4.0 out of 5 stars,Good,positive,['good'],Amazon,quality
+Indica,Indica10minCDB,Haircolor,17-Oct-19,NULL,5.0 out of 5 stars,Excellent,positive,['excellent'],flipkart,quality
+Indica,Indica10minCDB,Haircolor,16-Nov-19,NULL,3.0 out of 5 stars,good,positive,['good'],flipkart,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,29-Oct-19,NULL,5.0 out of 5 stars,Easy to use,positive,"['use', 'easy']",Amazon,effectonhair
+Indica,Indica10minCDB,Haircolor,17-Oct-19,NULL,5.0 out of 5 stars,very good,positive,['good'],flipkart,quality
+Indica,Indica10minCDB,Haircolor,16-Nov-19,NULL,5.0 out of 5 stars,"Nice color not very dark looks natural n delivery is also well in time ",positive,"['nice color', 'also well', 'time']",flipkart,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,30-May-19,NULL,5.0 out of 5 stars,Product is easy to use,positive,"['use', 'product', 'easy']",Amazon,quality
+Indica,Indica10minCDB,Haircolor,17-Oct-19,NULL,5.0 out of 5 stars,ok,positive,['ok'],flipkart,quality
+Indica,Indica10minCDB,Haircolor,14-May-20,NULL,3.0 out of 5 stars,"color is very good but note Braun color only black     ",positive,"['note braun color', 'color', 'good', 'black']",flipkart,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,6-Jul-19,NULL,4.0 out of 5 stars,Price is high,neutral,"['price', 'high']",Amazon,pricing
+Indica,Indica10minCDB,Haircolor,17-Sep-19,NULL,5.0 out of 5 stars,good,positive,['good'],flipkart,quality
+Indica,Indica10minCDB,Haircolor,14-May-20,NULL,1.0 out of 5 stars,Nt like,negative,['nt like'],flipkart,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,20-Sep-19,NULL,3.0 out of 5 stars,Ok,positive,['ok'],Amazon,quality
+Indica,Indica EHC 216ml,Haircolor,14-May-20,NULL,1.0 out of 5 stars,Very worst quality very fast colour will be go and some packet empty only handgloves,negative,"['worst quality', 'packet empty', 'fast colour', 'handgloves', 'go']",flipkart,quality
+Indica,Indica10minCDB,Haircolor,14-May-20,NULL,5.0 out of 5 stars,"Thanks Flipkart     ",positive,['thanks flipkart'],flipkart,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,18-Jul-19,NULL,4.0 out of 5 stars,Easy to use,positive,"['use', 'easy']",Amazon,effectonhair
+Indica,Indica HCNB 25ml,Haircolor,14-May-20,NULL,1.0 out of 5 stars,Product very bad,negative,"['product', 'bad']",flipkart,quality
+Indica,Indica10minCDB,Haircolor,14-May-20,NULL,5.0 out of 5 stars,"Good product and fast delivery  ",positive,"['good product', 'fast delivery']",flipkart,packaging
+"Indica ",Indica ESHCB 18ml,Haircolor,29-Oct-19,NULL,3.0 out of 5 stars,Good,positive,['good'],Amazon,quality
+Indica,Indica HCNB 25ml,Haircolor,17-Sep-19,NULL,1.0 out of 5 stars,you are proud,negative,['proud'],flipkart,effectonhair
+Indica,Indica10minCDB,Haircolor,15-Mar-20,NULL,3.0 out of 5 stars,Nice,positive,['nice'],flipkart,effectonhair
+"Indica ",Indica ESHCB 25ml,Haircolor,14 April 2017,NULL,1.0 out of 5 stars,Quality is not good,negative,"['quality', 'good']",Amazon,quality
+Indica,Indica HCNB 25ml,Haircolor,16-Dec-19,NULL,5.0 out of 5 stars,"Easy to apply heir and change the color of the within    minutes  ",positive,"['within minutes', 'apply heir', 'easy', 'color', 'change']",flipkart,effectonhair
+Indica,Indica10minCDB,Haircolor,15-Mar-20,NULL,1.0 out of 5 stars,Did not do what it says disappointed no effect on white hair for coverage,negative,"['white hair', 'says disappointed', 'effect', 'coverage']",flipkart,packaging
+"Indica ",Indica ESHCB 25ml,Haircolor,26-Aug-18,NULL,4.0 out of 5 stars,"I have been using since past  years  Color lasts till   days almost  Good product  I didn t see any problem  However for  st time user a skin test could be carried out ",negative,"['st time user', 'skin test could', 'problem however', 'see', 'carried']",Amazon,quality
+Indica,Indica HCNB 25ml,Haircolor,16-Nov-19,NULL,4.0 out of 5 stars,very easy to apply and natural,positive,"['natural', 'easy', 'apply']",flipkart,effectonhair
+Indica,Indica10minCDB,Haircolor,15-Mar-20,NULL,1.0 out of 5 stars,Bad produced,negative,['bad produced'],flipkart,effectonhair
+"Indica ",Indica ESHCB 25ml,Haircolor,24-Jul-17,NULL,2.0 out of 5 stars,Easy to apply and stays longer  But the ITCHING continues in your head  Be careful as this ITCHING can not be ignored,negative,"['stays longer', 'itching continues', 'itching', 'ignored', 'head', 'easy', 'careful', 'apply']",Amazon,effectonhair
+Indica,Indica HCNB 25ml,Haircolor,17-Oct-19,NULL,5.0 out of 5 stars,nice produced,positive,['nice produced'],flipkart,quality
+Indica,Indica10minCDB,Haircolor,14-Feb-20,NULL,3.0 out of 5 stars,ok,positive,['ok'],flipkart,effectonhair
+"Indica ",Indica ESHCB 25ml,Haircolor,17-Aug-17,NULL,5.0 out of 5 stars,Good,positive,['good'],Amazon,quality
+Indica,Indica HCNB 25ml,Haircolor,17-Oct-19,NULL,5.0 out of 5 stars,nice,positive,['nice'],flipkart,quality
+Indica,Indica10minCDB,Haircolor,14-Feb-20,NULL,5.0 out of 5 stars,good,positive,['good'],flipkart,effectonhair
+"Indica ",Indica ESHCB 25ml,Haircolor,1-Jun-18,NULL,5.0 out of 5 stars,Nice product,positive,['nice product'],Amazon,quality
+Indica,Indica BHC 40ml,Haircolor,17-Sep-19,NULL,5.0 out of 5 stars,Very good,positive,['good'],flipkart,quality
+Indica,Indica10minCDB,Haircolor,14-Feb-20,NULL,5.0 out of 5 stars,good,positive,['good'],flipkart,effectonhair
+"Indica ",Indica ESCNB 25ml,Haircolor,21-Aug-19,NULL,5.0 out of 5 stars,Really good,positive,['really good'],Amazon,effectonhair
+Indica,Indica BHC 40ml,Haircolor,15-Jan-20,NULL,5.0 out of 5 stars,Nice colour Hair feels soft,positive,[],flipkart,effectonhair
+Indica,Indica10minCDB,Haircolor,16-Nov-19,NULL,3.0 out of 5 stars,gd,neutral,['gd'],flipkart,effectonhair
+"Indica ",Indica ESCNB 25ml,Haircolor,6-Jul-19,NULL,5.0 out of 5 stars,"Fine    ",positive,['fine'],Amazon,quality
+Indica,Indica EHCNB,Haircolor,17-Sep-19,NULL,5.0 out of 5 stars,"My husband has been using this for the past few years  Previously he had used the normal dye which had its own disadvantages like leaving a stain on the pillow  towel  etc  Also  it had a very bad smell which lasted for atleast a week  Also  it caused hair fall  But this hair dye had no such issues  And I am so happy with this purchase ",negative,"['disadvantages like leaving', 'caused hair fall', 'hair dye', 'years previously', 'week also', 'normal dye', 'bad smell', 'using', 'used', 'stain']",Nykaa,quality
+Indica,Indica10minCDB,Haircolor,16-Nov-19,NULL,5.0 out of 5 stars,"Nice color not very dark looks natural n delivery is also well in time ",positive,"['nice color', 'also well', 'time']",flipkart,effectonhair
+"Indica ",Indica ESCNB 25ml,Haircolor,1-Oct-19,NULL,4.0 out of 5 stars,Easy hair colour natural shampoo is best of health and easy using no time waste,positive,"['time waste', 'easy using', 'health', 'best']",Amazon,quality
+Indica,Indica EHCNB,Haircolor,16-Dec-19,NULL,2.0 out of 5 stars,"It made my hairs hard instantly   there is written in the pack do not shampoo    but you have to shampoo your hairs to normalize the effect otherwise  it will result to hair breakage and severe split ends    use it only in an emergency   ",negative,"['hairs hard instantly', 'hair breakage', 'effect otherwise', 'hairs', 'written', 'shampoo', 'result', 'pack', 'normalize', 'made']",Nykaa,effectonhair
+Indica,Indica10minCDB,Haircolor,14-May-20,NULL,3.0 out of 5 stars,"color is very good but note Braun color only black     ",positive,"['note braun color', 'color', 'good', 'black']",flipkart,effectonhair
+"Indica ",Indica ESCNB 25ml,Haircolor,2-Sep-19,NULL,3.0 out of 5 stars,"thek hai ",neutral,['thek hai'],Amazon,effectonhair
+Indica,Indica EHCNB,Haircolor,14-Feb-20,NULL,5.0 out of 5 stars,"Bought for my mom   She liked it   continued using   no side effects ",positive,"['side effects', 'continued using', 'mom', 'liked', 'bought']",Nykaa,quality
+Indica,Indica10minCDB,Haircolor,14-May-20,NULL,1.0 out of 5 stars,Nt like,negative,['nt like'],flipkart,effectonhair
+"Indica ",Indica ESCNB 25ml,Haircolor,10-Aug-19,NULL,5.0 out of 5 stars,Very nice and long lasting and innovative hair coloring,positive,"['innovative hair coloring', 'long lasting', 'nice']",Amazon,quality
+Indica,Indica EHCDB,Haircolor,14-May-20,NULL,4.0 out of 5 stars,Color stays for pretty long considering the time it is applied    packets required for medium to long hairs,positive,"['applied packets required', 'pretty long considering', 'long hairs', 'color stays', 'time', 'medium']",Nykaa,quality
+Indica,Indica10minCDB,Haircolor,14-May-20,NULL,5.0 out of 5 stars,"Thanks Flipkart     ",positive,['thanks flipkart'],flipkart,effectonhair
+"Indica ",Indica ESCNB 25ml,Haircolor,13-Aug-19,NULL,4.0 out of 5 stars,It was indeed easy  and quick to use,positive,"['indeed easy', 'use', 'quick']",Amazon,effectonhair
+Indica,Indica EHCDB,Haircolor,15-Mar-20,NULL,5.0 out of 5 stars,"Easy to use and beautiful color ",positive,"['beautiful color', 'use', 'easy']",Nykaa,quality
+Indica,Indica10minCDB,Haircolor,15-Jan-20,NULL,5.0 out of 5 stars,super colour lovely,positive,['super colour lovely'],flipkart,effectonhair
+"Indica ",Indica ESCNB 25ml,Haircolor,29-Oct-19,NULL,3.0 out of 5 stars,Esy to use,neutral,"['use', 'esy']",Amazon,effectonhair
+Indica,Indica EHCDB,Haircolor,14-Feb-20,NULL,4.0 out of 5 stars,"It s quite a decent and chemical free product  Not heavy on pocket at all  And is hassle free ",positive,"['chemical free product', 'hassle free', 'quite', 'pocket', 'heavy', 'decent']",Nykaa,effectonhair
+Indica,Indica10minCDB,Haircolor,15-Jan-20,NULL,3.0 out of 5 stars,good,positive,['good'],flipkart,effectonhair
+"Indica ",Indica ESCNB 25ml,Haircolor,20-Oct-19,NULL,5.0 out of 5 stars,Good,positive,['good'],Amazon,quality
+Indica,Indica EHCDB,Haircolor,15-Jan-20,NULL,5.0 out of 5 stars,"Wonderful product  excellent results and safe on hair ",positive,"['safe', 'hair']",Nykaa,quality
+Indica,Indica10minCDB,Haircolor,15-Jan-20,NULL,5.0 out of 5 stars,"nice   product  hair    colour   ",positive,[],flipkart,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,8-Oct-19,NULL,4.0 out of 5 stars,Good stuff  they give you a pair of gloves with it  which is nice as in the powder format you don t get one  However  i feel one sachet is not enough when you have a decent hair full  be prepared to use two if you really want to make sure all your sides are taken care of,positive,"['get one however', 'feel one sachet', 'decent hair full', 'use two', 'taken care', 'really want', 'powder format', 'make sure', 'good stuff', 'sides']",Amazon,effectonhair
+Indica,Indica EHCDB,Haircolor,16-Dec-19,NULL,4.0 out of 5 stars,"Easy application  Nice product but it gives kind of dull look to my hair ",negative,"['gives kind', 'dull look', 'hair']",Nykaa,quality
+Indica,Indica10minCDB,Haircolor,16-Dec-19,NULL,3.0 out of 5 stars,ok,positive,['ok'],flipkart,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,29-May-19,NULL,5.0 out of 5 stars,Good hair color      easy to use,positive,['use'],Amazon,effectonhair
+Indica,Indica EHCDB,Haircolor,16-Nov-19,NULL,3.0 out of 5 stars,Color stays for pretty long considering the time it is applied    packets required for medium to long hairs,positive,"['applied packets required', 'pretty long considering', 'long hairs', 'color stays', 'time', 'medium']",Nykaa,quality
+Indica,Indica10minCDB,Haircolor,16-Dec-19,NULL,4.0 out of 5 stars,ok,positive,['ok'],flipkart,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,23-Jun-19,NULL,5.0 out of 5 stars,"Easy to use  convenient to buy  long lasting   natural colour  value for money   ",positive,"['use convenient', 'money', 'easy']",Amazon,quality
+Indica,Indica EHCDB,Haircolor,16-Nov-19,NULL,5.0 out of 5 stars,"Easy to use and beautiful color ",positive,"['beautiful color', 'use', 'easy']",Nykaa,quality
+Indica,Indica10minCDB,Haircolor,16-Dec-19,NULL,5.0 out of 5 stars,Very nice clour,positive,['nice clour'],flipkart,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,10-Oct-19,NULL,5.0 out of 5 stars,Nice product n very easy to use  Color stays for around   weeks unless you are not shampooing your hair too frequently,positive,"['use color stays', 'nice product n', 'around weeks unless', 'shampooing', 'hair', 'frequently', 'easy']",Amazon,quality
+Indica,Indica EHCDB,Haircolor,17-Oct-19,NULL,5.0 out of 5 stars,"Very nice gives natural color it is easy to apply ",positive,"['easy', 'apply']",Nykaa,effectonhair
+Indica,Indica10minCDB,Haircolor,16-Dec-19,NULL,4.0 out of 5 stars,k good,positive,['k good'],flipkart,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,11-Mar-20,NULL,1.0 out of 5 stars,"Received only   packets  though mentioned is    packets  Please send remaining   packets  One indica shampoo is there which I don t need ",negative,"['packets though mentioned', 'received', 'need']",Amazon,packaging
+Indica,Indica EHCDB,Haircolor,17-Sep-19,NULL,5.0 out of 5 stars,"Very good product  Easy to apply and long lasting quality ",positive,"['long lasting quality', 'good product easy', 'apply']",Nykaa,quality
+Indica,Indica10minCDB,Haircolor,16-Dec-19,NULL,3.0 out of 5 stars,ok type,positive,['ok type'],flipkart,packaging
+"Indica ",Indica ESHCB 18ml,Haircolor,4-Mar-19,NULL,5.0 out of 5 stars,Good product,positive,['good product'],Amazon,quality
+Indica,Indica EHCDB,Haircolor,15-Mar-20,NULL,2.0 out of 5 stars,"Easy application  Nice product but it gives kind of dull look to my hair ",negative,"['gives kind', 'dull look', 'hair']",Nykaa,quality
+Indica,Indica10minCDB,Haircolor,17-Oct-19,NULL,3.0 out of 5 stars,indica is best dark brown im satisfied,positive,['indica'],flipkart,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,14-Aug-19,NULL,5.0 out of 5 stars,best,positive,['best'],Amazon,quality
+Indica,Indica EHCDB,Haircolor,16-Dec-19,NULL,5.0 out of 5 stars,"Wonderful product  excellent results and safe on hair ",positive,"['safe', 'hair']",Nykaa,quality
+Indica,Indica10minCDB,Haircolor,17-Oct-19,NULL,5.0 out of 5 stars,Excellent,positive,['excellent'],flipkart,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,2-Nov-19,NULL,5.0 out of 5 stars,Good product,positive,['good product'],Amazon,quality
+"Indica ",Indica EHCNB 25ml,Haircolor,8-Nov-19,NULL,3.0 out of 5 stars,Ok,positive,['ok'],Amazon,effectonhair
+Indica,Indica10minCDB,Haircolor,17-Oct-19,NULL,5.0 out of 5 stars,very good,positive,['good'],flipkart,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,28-Oct-19,NULL,5.0 out of 5 stars,"Does what it says ",neutral,['says'],Amazon,effectonhair
+"Indica ",Indica EHCNB 25ml,Haircolor,27-Feb-19,NULL,4.0 out of 5 stars,Good,positive,['good'],Amazon,effectonhair
+Indica,Indica10minCDB,Haircolor,17-Oct-19,NULL,5.0 out of 5 stars,ok,positive,['ok'],flipkart,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,12-Nov-19,NULL,5.0 out of 5 stars,Wow,positive,['wow'],Amazon,effectonhair
+"Indica ",Indica EHCNB 25ml,Haircolor,21-Sep-17,NULL,5.0 out of 5 stars,"Easy to use and the best ",positive,"['use', 'easy', 'best']",Amazon,effectonhair
+Indica,Indica10minCDB,Haircolor,17-Sep-19,NULL,5.0 out of 5 stars,good,positive,['good'],flipkart,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,20-Aug-19,NULL,5.0 out of 5 stars,Very good product easy to use,positive,"['good product easy', 'use']",Amazon,quality
+"Indica ",Indica EHCNB 25ml,Haircolor,25 April 2018,NULL,NULL,"It is a single sachet whose MRP is Rs      I was fooled into buying it at Rs    ",negative,"['rs', 'fooled', 'buying']",Amazon,effectonhair
+Indica,Indica EHC 216ml,Haircolor,14-May-20,NULL,1.0 out of 5 stars,Very worst quality very fast colour will be go and some packet empty only handgloves,negative,"['worst quality', 'packet empty', 'fast colour', 'handgloves', 'go']",flipkart,packaging
+"Indica ",Indica ESHCB 18ml,Haircolor,31-Jul-19,NULL,5.0 out of 5 stars,"Its use is so easy inside the sachet you will get an use n through handglove also Quick result no side effects ",positive,"['side effects', 'easy inside', 'use n', 'use', 'sachet', 'get']",Amazon,effectonhair
+"Indica ",Indica EHCNB 25ml,Haircolor,19-Dec-18,NULL,5.0 out of 5 stars,"effective and easy to use for all types of hair ",positive,"['use', 'types', 'hair', 'effective', 'easy']",Amazon,quality
+Indica,Indica HCNB 25ml,Haircolor,16-Nov-19,NULL,4.0 out of 5 stars,very easy to apply and natural,positive,"['natural', 'easy', 'apply']",flipkart,packaging
+"Indica ",Indica ESHCB 18ml,Haircolor,2-Oct-19,NULL,3.0 out of 5 stars,Nice,positive,['nice'],Amazon,quality
+"Indica ",Indica EHCNB 25ml,Haircolor,7-Oct-16,NULL,5.0 out of 5 stars,best,positive,['best'],Amazon,effectonhair
+Indica,Indica HCNB 25ml,Haircolor,17-Oct-19,NULL,5.0 out of 5 stars,nice produced,positive,['nice produced'],flipkart,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,10-Mar-20,NULL,4.0 out of 5 stars,Good,positive,['good'],Amazon,quality
+"Indica ",Indica EHCNB 25ml,Haircolor,15-May-18,NULL,1.0 out of 5 stars,"Worst product   its ckst is also soo high   they charged me     for   packets   ",negative,"['also soo high', 'worst product', 'packets', 'ckst', 'charged']",Amazon,packaging
+Indica,Indica HCNB 25ml,Haircolor,17-Oct-19,NULL,5.0 out of 5 stars,nice,positive,['nice'],flipkart,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,29-Oct-19,NULL,5.0 out of 5 stars,Easy to use,positive,"['use', 'easy']",Amazon,effectonhair
+"Indica ",Indica EHCNB 25ml,Haircolor,11-Feb-19,NULL,3.0 out of 5 stars,Ok,positive,['ok'],Amazon,effectonhair
+Indica,Indica BHC 40ml,Haircolor,17-Sep-19,NULL,5.0 out of 5 stars,Very good,positive,['good'],flipkart,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,30-May-19,NULL,5.0 out of 5 stars,Product is easy to use,positive,"['use', 'product', 'easy']",Amazon,quality
+"Indica ",Indica EHCNB 25ml,Haircolor,13 April 2017,NULL,3.0 out of 5 stars,"Good colour to use ",positive,"['good colour', 'use']",Amazon,effectonhair
+Indica,Indica EHCNB,Haircolor,16-Dec-19,NULL,2.0 out of 5 stars,"It made my hairs hard instantly   there is written in the pack do not shampoo    but you have to shampoo your hairs to normalize the effect otherwise  it will result to hair breakage and severe split ends    use it only in an emergency   ",negative,"['hairs hard instantly', 'hair breakage', 'effect otherwise', 'hairs', 'written', 'shampoo', 'result', 'pack', 'normalize', 'made']",Nykaa,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,6-Jul-19,NULL,4.0 out of 5 stars,Price is high,neutral,"['price', 'high']",Amazon,pricing
+"Indica ",Indica EHCNB 25ml,Haircolor,24-Oct-17,NULL,5.0 out of 5 stars,Easy to use,positive,"['use', 'easy']",Amazon,packaging
+Indica,Indica EHCNB,Haircolor,14-Feb-20,NULL,5.0 out of 5 stars,"Bought for my mom   She liked it   continued using   no side effects ",positive,"['side effects', 'continued using', 'mom', 'liked', 'bought']",Nykaa,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,20-Sep-19,NULL,3.0 out of 5 stars,Ok,positive,['ok'],Amazon,quality
+"Indica ",Indica EHCNB 25ml,Haircolor,8-Jan-19,NULL,3.0 out of 5 stars,Nice,positive,['nice'],Amazon,effectonhair
+Indica,Indica EHCDB,Haircolor,15-Mar-20,NULL,5.0 out of 5 stars,"Easy to use and beautiful color ",positive,"['beautiful color', 'use', 'easy']",Nykaa,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,18-Jul-19,NULL,4.0 out of 5 stars,Easy to use,positive,"['use', 'easy']",Amazon,effectonhair
+"Indica ",Indica EHCNB 25ml,Haircolor,25-Jun-17,NULL,3.0 out of 5 stars,"Nice but same as other hair colours ",positive,"['hair colours', 'nice']",Amazon,packaging
+Indica,Indica EHCDB,Haircolor,16-Dec-19,NULL,4.0 out of 5 stars,"Easy application  Nice product but it gives kind of dull look to my hair ",negative,"['gives kind', 'dull look', 'hair']",Nykaa,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,29-Oct-19,NULL,3.0 out of 5 stars,Good,positive,['good'],Amazon,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,8-Oct-19,NULL,4.0 out of 5 stars,Good stuff  they give you a pair of gloves with it  which is nice as in the powder format you don t get one  However  i feel one sachet is not enough when you have a decent hair full  be prepared to use two if you really want to make sure all your sides are taken care of,positive,"['get one however', 'feel one sachet', 'decent hair full', 'use two', 'taken care', 'really want', 'powder format', 'make sure', 'good stuff', 'sides']",Amazon,quality
+Indica,Indica EHCDB,Haircolor,16-Nov-19,NULL,5.0 out of 5 stars,"Easy to use and beautiful color ",positive,"['beautiful color', 'use', 'easy']",Nykaa,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,7-Nov-19,NULL,1.0 out of 5 stars,"I am using this product last two months I observed after finishing of head bath getting very severe headache So please don t buy this product  I think they mixed ammonia  ",negative,"['head bath getting', 'severe headache', 'mixed ammonia', 'using', 'think', 'product', 'please', 'observed', 'finishing', 'buy']",Amazon,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,23-Jun-19,NULL,5.0 out of 5 stars,"Easy to use  convenient to buy  long lasting   natural colour  value for money   ",positive,"['use convenient', 'money', 'easy']",Amazon,effectonhair
+Indica,Indica EHCDB,Haircolor,17-Oct-19,NULL,5.0 out of 5 stars,"Very nice gives natural color it is easy to apply ",positive,"['easy', 'apply']",Nykaa,packaging
+"Indica ",Indica ESHCB 18ml,Haircolor,2-Nov-19,NULL,4.0 out of 5 stars,Nice,positive,['nice'],Amazon,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,11-Mar-20,NULL,1.0 out of 5 stars,"Received only   packets  though mentioned is    packets  Please send remaining   packets  One indica shampoo is there which I don t need ",negative,"['packets though mentioned', 'received', 'need']",Amazon,quality
+Indica,Indica EHCDB,Haircolor,15-Mar-20,NULL,2.0 out of 5 stars,"Easy application  Nice product but it gives kind of dull look to my hair ",negative,"['gives kind', 'dull look', 'hair']",Nykaa,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,30-Nov-19,NULL,1.0 out of 5 stars,"I think this is a duplicate product the colour won t last long  not even day     Even after   days of head wash the colour stains are spread on pillow covers   ",negative,"['even day even', 'pillow covers', 'last long', 'head wash', 'duplicate product', 'colour stains', 'colour', 'think', 'spread', 'days']",Amazon,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,14-Aug-19,NULL,5.0 out of 5 stars,best,positive,['best'],Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,30-Sep-19,NULL,4.0 out of 5 stars,Nice product,positive,['nice product'],Amazon,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,2-Oct-19,NULL,3.0 out of 5 stars,Nice,positive,['nice'],Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,23-Aug-19,NULL,4.0 out of 5 stars,Good but overpriced,positive,"['overpriced', 'good']",Amazon,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,10-Mar-20,NULL,4.0 out of 5 stars,Good,positive,['good'],Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,6-Jun-19,NULL,5.0 out of 5 stars,Good product,positive,['good product'],Amazon,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,29-Oct-19,NULL,5.0 out of 5 stars,Easy to use,positive,"['use', 'easy']",Amazon,packaging
+"Indica ",Indica ESHCB 18ml,Haircolor,23-Feb-20,NULL,5.0 out of 5 stars,Superb,positive,['superb'],Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,20-Aug-19,NULL,5.0 out of 5 stars,Very good product easy to use,positive,"['good product easy', 'use']",Amazon,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,31-Jul-19,NULL,5.0 out of 5 stars,"Its use is so easy inside the sachet you will get an use n through handglove also Quick result no side effects ",positive,"['side effects', 'easy inside', 'use n', 'use', 'sachet', 'get']",Amazon,effectonhair
+"Indica ",Indica ESHCB 18ml,Haircolor,2-Oct-19,NULL,3.0 out of 5 stars,Nice,positive,['nice'],Amazon,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,10-Mar-20,NULL,4.0 out of 5 stars,Good,positive,['good'],Amazon,quality
+"Indica ",Indica ESHCB 18ml,Haircolor,29-Oct-19,NULL,5.0 out of 5 stars,Easy to use,positive,"['use', 'easy']",Amazon,effectonhair

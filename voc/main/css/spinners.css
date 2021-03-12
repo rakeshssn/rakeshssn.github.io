@@ -1,0 +1,296 @@
+
+
+.preloader{
+  position: relative;
+  margin: 0 auto;
+  width: 100px;
+}
+.preloader:before{
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+.circular {
+  animation: rotate 2s linear infinite;
+  height: 50px;
+  transform-origin: center center;
+  width: 50px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.path {
+  stroke-dasharray: 1, 200;
+  stroke-dashoffset: 0;
+  animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+  stroke-linecap: round;
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -35px;
+  }
+  100% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -124px;
+  }
+}
+
+@keyframes color {
+  100%,
+  0% {
+    stroke: #d62d20;
+  }
+  40% {
+    stroke: #0057e7;
+  }
+  66% {
+    stroke: #008744;
+  }
+  80%,
+  90% {
+    stroke: #ffa700;
+  }
+}
+
+
+#overlay{
+    position: fixed; 
+    width: 100%; 
+    height: 100%; 
+    top: 0px; 
+    left: 0px; 
+    background-color: #000; 
+    opacity: 0.7;
+    filter: alpha(opacity = 70) !important;
+    display: none;
+    z-index: 100;
+    
+}
+
+#overlayContent{
+    position: fixed; 
+    width: 100%;
+    top: 100px;
+    text-align: center;
+    display: none;
+    overflow: hidden;
+    z-index: 100;
+}
+
+#contentGallery{
+    margin: 0px auto;
+}
+
+#imgBig, #imgSmall{
+    cursor: pointer;
+}
+
+
+
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content-responsive {
+    display: inline-block;
+    position: inherit;
+    top: 0px;
+    left: 0;
+}
+
+
+.tooltip{
+position: absolute; 
+  text-align: center; 
+  width: 100px; 
+  height: 28px;   
+  padding: 2px; 
+  font: 12px sans-serif;  
+  background: green;  
+  border: 0px;          
+  border-radius: 8px;
+  color:white;
+  box-shadow: -3px 3px 15px #888888;
+  opacity:0;  
+
+}
+
+
+
+
+
+
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+div#layout {
+  text-align: center;
+}
+
+div#ratingbarContainer {
+  width: 500px;
+  height: 250px;
+  margin: auto;
+  background-color: #f1f1f1;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+}
+
+.bar {
+  fill: #80cbc4;
+}
+
+
+line {
+  stroke: "#9c8b00";
+}
+
+line#limit {
+  stroke: #9c8b00;
+  stroke-width: 3;
+  stroke-dasharray: 3 6;
+}
+
+.grid path {
+  stroke-width: 0;
+}
+
+.grid .tick line {
+  stroke: #9FAAAE;
+  stroke-opacity: 0.3;
+}
+
+text.divergence {
+  font-size: 14px;
+  fill: #2F4A6D;
+}
+
+text.value {
+  font-size: 14px;
+}
+
+text.title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+text.label {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+text.source {
+  font-size: 10px;
+}
+
+
+.node {
+  cursor: pointer;
+}
+
+.node:hover {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.node--leaf {
+  fill: white;
+}
+
+.label {
+  font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+
+.label,
+.node--root,
+.node--leaf {
+  pointer-events: none;
+}
+
+.state{
+	fill: none;
+	stroke: #a9a9a9;
+	stroke-width: 1;
+}
+.state:hover{
+	fill-opacity:0.5;
+}
+#tooltipmap {   
+	position: absolute;           
+	text-align: center;
+	padding: 20px;             
+	margin: 10px;
+	font: 12px sans-serif;        
+	background: lightsteelblue;   
+	border: 1px;      
+	border-radius: 2px;           
+	pointer-events: none;      
+}
+#tooltipmap h4{
+	margin:0;
+	font-size:14px;  
+	color: lightseagreen; 
+}
+#tooltipmap{
+	background:rgba(0,0,0,0.9);
+	border:1px solid grey;
+	border-radius:5px;
+	font-size:12px;
+	width:auto;
+	padding:4px;
+	color:white;
+	opacity:0;
+}
+#tooltipmap table{
+	table-layout:fixed;
+}
+#tooltipmap tr td{  
+	color: white; 
+	padding:0;
+	margin:0;
+}
+#tooltipmap tr td:nth-child(1){
+	width:50px;
+}
+#tooltipmap tr td:nth-child(2){
+	text-align:center;
+}
+
+.legend rect {
+  fill:white;
+  stroke:black;
+  opacity:0.8;}
+
+
+
+.icon:hover{
+
+  opacity: 0.5;
+  
+}

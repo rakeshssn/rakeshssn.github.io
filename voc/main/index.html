@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>VOICE OF CUSTOMER - Analysis of Customer Reviews</title>
+    <!-- Bootstrap Core CSS -->
+	
+	
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Menu CSS -->
+
+    <!-- animation CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+	
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+	
+    <!-- color CSS -->
+    <link href="css/colors/default.css" id="theme" rel="stylesheet">
+
+    <!-- jQuery UI CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.theme.min.css">
+	<link rel="stylesheet" type="text/css" href="js/introjs.min.css"/>
+
+
+    <script src="http://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+    <script src="http://d3js.org/d3-hierarchy.v1.min.js" charset="utf-8"></script>
+    <script src="js/d3.layout.cloud.js"></script>
+    <script type="text/javascript" src="jspos/lexer.js"></script>
+    <script type="text/javascript" src="jspos/lexicon.js_"></script>
+    <script type="text/javascript" src="jspos/POSTagger.js"></script>
+	<script src="js/csi.js"></script>
+
+
+</head>
+
+<body class="fix-header">
+    <!-- ============================================================== -->
+    <!-- Preloader -->
+    <!-- ============================================================== -->
+    <div class="preloader" id="loadcircle" style="display: none">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+        </svg>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Wrapper -->
+    <!-- ============================================================== -->
+    <div id="wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <nav class="navbar navbar-default navbar-static-top m-b-0" style="height: 54.89px;">
+            <div class="navbar-header">
+                <div style=" margin-left: 20px; width: 100%; display: inline-block;">
+                    <!-- Logo -->
+                    <h3 class="page-title"> <span style="color: white;"> VOICE OF CUSTOMER - ANALYSIS OF CUSTOMER REVIEWS</span></h3>
+                     
+                </div>
+                
+                <!-- /Logo -->
+                
+            </div>
+            <!-- /.navbar-header -->
+            <!-- /.navbar-top-links -->
+            <!-- /.navbar-static-side -->
+        </nav>
+        <!-- End Top Navigation -->
+        <!-- ============================================================== -->
+        <!-- Page Content -->
+        <!-- ============================================================== -->
+        <div id="page-wrapper" >
+            <div class="container-fluid" style=" max-width: 1920px;">
+                <!-- /.row -->
+                <!-- ============================================================== -->
+                <!-- Different data widgets -->
+                <!-- ============================================================== -->
+                <!-- .row -->
+
+                <div class="row" style="margin-top: 15px;">
+                    <div class="col-lg-12 col-sm-12 col-xs-12" data-intro="Welcome! This is a INTRO CONTENT for the mentioned element" data-step="1" data-position="bottom">
+                        <div class="white-box analytics-info" style="text-align: center;">
+                            <div style="display: inline-block; margin: auto;">
+                                <div style="display: inline-block;">
+                                    <h3 class="box-title" style=" margin-right: 30px;">DATE Filter: </h3>
+                                </div>
+                                <div id="slider-div" style="min-width: 600px ; text-align: left;display: inline-block">
+                                    <label>Date: <span id="dateLabel1">Mar 21, 2011</span> - <span id="dateLabel2">Nov 27, 2018</span></label>
+                                    <div id="date-slider"></div>
+                                </div>
+                                <div style="margin:auto; margin-left: 40px; margin-right: 40px;  display: inline-flex;">
+                                    <div style="margin:auto; margin-right: 10px;display: inline-block" >
+                                        <label>Main Category:</label>
+                                    </div >
+                                    <div style="margin:auto; display: inline-block">
+                                        <div style="margin:auto; display: inline-block" >
+                                        <input type="checkbox" id="formerEmp" checked> Skin Care<br>
+                                        <input type="checkbox" id="currentEmp" checked> Hair Care
+                                    </div>
+                                    </div>
+                                </div>
+								
+								
+			<section id="benefits-4col" class="pt-50 light">
+    			<div class="container">
+        			<div class="row">
+					
+					
+								<div class="col-lg-2 col-md-6">
+									<div class="content-box d-flex mb-50">			
+										<div>
+											<h4 class=""><strong>Brand</strong></h4>	
+													<select name="brands" id="brand">
+													  <option value="volvo">Volvo</option>
+													  <option value="saab">Saab</option>
+													  <option value="mercedes">Mercedes</option>
+													  <option value="audi">Audi</option>
+													</select>
+										</div>
+									</div>
+								</div>
+						
+						
+						
+								<div class="col-lg-2 col-md-6">
+									<div class="content-box d-flex mb-50">
+										
+										<div>
+											<h4 class=""><strong>Sub-Brand</strong></h4>
+											<select name="subbrands" id="subbrand">
+													  <option value="volvo">Volvo</option>
+													  <option value="saab">Saab</option>
+													  <option value="mercedes">Mercedes</option>
+													  <option value="audi">Audi</option>
+											</select>
+										</div>
+									</div>
+								</div>
+						
+						
+						
+								<div class="col-lg-2 col-md-6">
+									<div class="content-box d-flex mb-50">                    			
+										<div>
+											<h4 class=""><strong>Channel</strong></h4>
+											<select name="channels" id="channel">
+													  <option value="volvo">Amazon</option>
+													  <option value="saab">FlipKart</option>
+													  <option value="mercedes">Nykaa</option>
+											</select>
+										</div>
+									</div>
+								</div>
+						
+						
+						
+								<div class="col-lg-2 col-md-6">
+									<div class="content-box d-flex mb-50">	
+										<div>
+											<h4 class=""><strong>Topic</strong></h4>
+											<select name="topics" id="topic">
+													  <option value="volvo">Volvo</option>
+													  <option value="saab">Saab</option>
+													  <option value="mercedes">Mercedes</option>
+													  <option value="audi">Audi</option>
+											</select>
+										</div>
+									</div>
+								</div>
+						
+						
+						
+								<div class="col-lg-2 col-md-6">
+									<div class="content-box d-flex mb-50">                    			
+										<div>
+											<h4 class=""><strong>Sentiment</strong></h4>
+											<select name="sentiments" id="sentiment">
+													  <option value="volvo">Positive</option>
+													  <option value="saab">Neutral</option>
+													  <option value="mercedes">Negative</option>
+											</select>
+										</div>
+									</div>
+
+								</div>
+					
+        			</div>
+    			</div>
+    			
+			</section>
+			
+			<br>
+                               
+                                <div style="margin:auto;display: inline-block" >
+                                    <button type="button" style="height: 40px; width: 120px" id="updateButton" data-intro="Charts are interactive! When finished viewing a particular selection press this button to reset all charts." data-step="7" data-position="left">Update</button>
+                                </div>          
+                            </div>                
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12 col-xs-12">
+					<h1 data-intro="Welcome!This is a INTRO CONTENT for the mentioned element." data-step="2" data-position="bottom">SENTIMENT BY CHANNELS</h1>
+                        <div class="white-box analytics-info">
+						 
+                             <h3 class="box-title"> Percentage of Positive / Neutral / Negative comments</h3>
+                                <div style="text-align: center;">
+								
+                                    <div style="display: inline;width: fit-content;text-align: center;">
+                                        <div style="text-align: center;width: fit-content;display: inline-block;margin-top: 10px;">
+                                            <div id = half-donut-microsoft style="width: 100%;cursor: pointer;"> </div>
+                                            <div class="icon" id = filter-microsoft style="cursor: pointer;">
+                                                <img src="images/amazon-logo.png" alt="Micorsoft" height="20" >
+                                            </div>
+                                        </div>
+                                        <div style="text-align: center;width: fit-content;display: inline-block;margin-top: 10px;">
+                                            <div id = half-donut-facebook style="width: 100%;cursor: pointer;"> </div>
+                                            <div class="icon" id="filter-facebook" style="cursor: pointer;">
+                                                 <img src="images/flipkartlogo.jpg" alt="Micorsoft" height="20" >
+                                            </div>
+                                           
+                                        </div>
+                                        <div style="text-align: center;width: fit-content;display: inline-block;margin-top: 10px;">
+                                            <div id = half-donut-apple style="width: 100%;cursor: pointer;"> </div>
+                                            <div  class="icon" id="filter-apple" style="cursor: pointer;">
+                                                <img src="images/nykaa.jpg" alt="Micorsoft" height="20" >
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            
+                        </div>
+                    </div>
+                   
+                    <div class="col-lg-8 col-sm-12 col-xs-12" id="comments" style="display: none;">
+                        <div class="white-box analytics-info" style="height: 344.75px; ">
+                             <h3 id = comment_title class="box-title"> Top-5 Comments</h3>
+                                <div style="overflow: auto;"> 
+                                <div id = comment_text style="word-wrap: break-word; height: 250px; overflow: auto;">
+                                    Not Available</div> 
+                               </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 col-sm-12 col-xs-12">
+                        <div class="white-box analytics-info">
+                             <h3 class="box-title" data-intro="Welcome! This is a INTRO CONTENT for the mentioned element" data-step="3" data-position="bottom"> Ratings</h3>
+                            <div style="text-align: center; display: flex;" >
+                                <div id="ratingbarContainer" >
+                                    <svg id='ratingbar' > </svg>
+                                </div>
+                                <div style="text-align: left; margin: auto;margin-left: 10px;">
+                                    <i class="fa fa-square m-r-5" style="color: #66d6ae;"></i>&nbsp;&nbsp;Overall<br>
+                                    
+                                </div>
+                            </div>             
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-12 col-xs-12">
+                        <div class="white-box analytics-info">
+                             <h3 class="box-title" id="wordcloud-title" data-intro="Welcome! This is a INTRO CONTENT for the mentioned element." data-step="4" data-position="bottom"> Pros & Cons (microsoft) </h3>
+                             <div style="text-align: center; ">
+                                    <div style="text-align: center; ">
+                                        <div id = "wordcloud"  style=" width: 370px ;height: 238px; margin: auto;" ></div>
+                                    </div>
+                                    <div style=" margin: auto;margin-left: 10px;height: 12px;margin-top:2px;">
+                                            <i class="fa fa-square m-r-5" style="color:lightseagreen;text-align: left;"></i>&nbsp;&nbsp;Pros
+                                            <i class="fa fa-square m-r-5" style="color: lightcoral; text-align: right;margin-left: 30px; margin-top: 10px;"></i>&nbsp;&nbsp;Cons <br>
+                                        </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" >
+                    
+                    <div class="col-lg-4 col-sm-12 col-xs-12">
+                        <div class="white-box analytics-info" style="height: 500px">
+                             <h3 class="box-title" data-intro="Welcome! This is a INTRO CONTENT for the mentioned element." data-step="5" data-position="bottom"> Frequent Adjective on Important Aspect</h3>
+                            <div style="text-align: center; height: 410px; max-width: 410px ; margin:auto;" id="bubbleContainer">
+                                       <svg id = 'bubble' width="500" height="500"  ></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-12 col-xs-12">
+                        <div class="white-box analytics-info" style="height: 700px">
+                             <h3 class="box-title" id="map-title" data-intro="Welcome!This is a INTRO CONTENT for the mentioned element" data-step="6" data-position="bottom"> WORD CLOUD</h3>
+							 <iframe width="1200" height="650" style="border:none" src="/wc/index.html" seamless></iframe>
+                        </div>
+                    </div>        
+					   
+                </div>
+				
+			
+				
+				
+				
+
+                
+            </div>
+			
+            <!-- /.container-fluid -->
+        </div>
+		
+        <!-- ============================================================== -->
+        <!-- End Page Content -->
+        <!-- ============================================================== -->
+    </div>
+	
+	
+
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+
+    <!-- External JS libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    
+    <script src="js/dashboard1.js"></script>
+	<script src="js/uStates.js"></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="js/graph.js"></script>
+	<script src="js/intro.min.js"></script>
+	
+	
+	   
+</body>
+
+</html>
